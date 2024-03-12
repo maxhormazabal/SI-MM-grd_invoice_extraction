@@ -1,0 +1,7 @@
+
+
+general:
+  TEMPORARY_DIRECTORY_ORDER: 'pedidos_temporal/'
+  TEMPORARY_DIRECTORY_LEARNING: 'pedidos_temporal_learning/'
+  RESULTS_DIRECTORY: 'resultado'
+  ORIGINAL_DIRECTORY: 'original'

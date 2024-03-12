@@ -1,0 +1,8 @@
+general_directories:
+  product_desambiguator:
+    exceptions: 'desambiguator/product_desambiguator/configuration/exceptions_products.json'
+    names_to_category_file: 'common/configuration/products/alias_to_cns.json'
+    prices_by_company_file: 'desambiguator/product_desambiguator/configuration/price_companies.json'
+    gamas_angular_file: 'common/configuration/products/angular_gamas.json'
+    gamas_pletina_file: 'common/configuration/products/pletina_gamas.json'
+  company_desambiguator:

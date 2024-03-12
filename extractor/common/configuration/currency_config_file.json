@@ -1,0 +1,8 @@
+{
+  "EUR": ["€", "euros", "euro", "eur", "eu", "€uro", "euro's"],
+  "GBP": ["£", "sterling", "gbp", "libra", "pound", "stg"],
+  "USD": ["$", "dolar", "dollar"],
+  "MAD": ["mad", "dirham"],
+  "CZK": ["czk"],
+  "CHF": ["chf"]
+}

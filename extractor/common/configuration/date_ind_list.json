@@ -1,0 +1,40 @@
+{
+  "deliverydate_ind": [
+    "required",
+    "entrega",
+    "entr.",
+    "lieferdatum",
+    "prevista",
+    "delivery",
+    "del",
+    "delivered on",
+    "venc",
+    "demandée",
+    "jour de livraison",
+    "data remessa",
+    "time",
+    "due",
+    "sem/ann",
+    "week",
+    "lieferdatum",
+    "shipment date",
+    "a partir de",
+    "liefertermin",
+    "livraison",
+    "solicit.",
+    "récept."
+  ],
+  "orderdate_ind": [
+    "bestellungsdatum",
+    "order",
+    "commande",
+    "purchase",
+    "pedido",
+    "fecha",
+    "date",
+    "le",
+    "datum",
+    "data",
+    "fec documento"
+  ]
+}

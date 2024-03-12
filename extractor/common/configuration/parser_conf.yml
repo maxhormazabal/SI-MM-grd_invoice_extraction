@@ -1,0 +1,782 @@
+parsers:
+
+  product_parser:
+  
+    # Avoid product propagation of this companies
+    out_of_table_product_propagation_denylist:
+
+     
+    split_metrics_out_of_table:
+
+     
+    # discard previous relevant blobs of previous cells
+    discard_blobs_out_of_table:
+
+
+    # assign score to qty and price elements
+    path_qty_price_score_abs:
+      # default value, no path score was applied
+      unknown: 0.0
+      # Quantity is extracted with the header of the table
+      header_qty_path: 0.9
+      # Price is extracted with the header of the table
+      header_price_path: 0.9
+      # Price or Qty are extracted using the heuristic of qty * price = price_total (numbers are used as they appear in the document)
+      heuristic_unit_price_strict: 0.95
+      # Price or Qty are extracted using the heuristic of qty * price = price_total (numbers are used as they appear in the document but one of the quantities is divided by 1000. The division is perfect)
+      heuristic_unit_price_round: 0.85
+      # Price or Qty are extracted using the heuristic of qty * price = price_total (numbers are used as they appear in the document but one of the quantities is divided by 100. The division is perfect). Quantity is in kg
+      heuristic_unit_price_round_100kg_qty_kg: 0.80
+      # Price or Qty are extracted using the heuristic of qty * price = price_total (numbers are used as they appear in the document but one of the quantities is divided by 100. The division is perfect). Quantity is in tonnes.
+      heuristic_unit_price_round_100kg_qty_ton: 0.80
+      # Price or Qty are extracted using the heuristic of qty * price = price_total but some rounding is allowed
+      heuristic_unit_price_fuzzy: 0.65
+      # The price and qty are extracted using the heuristic (with any of the path above) but they are reversed due to additional conditions (e.g. labels of the elements)
+      heuristic_unit_price_reversed: 0.65
+      # The quantity is extracted search to the left of the price applying fuzzy heuristics (price must have been extracted with the header)
+      heuristic_full_fuzzy: 0.5
+      # Quantity is extracted from the product description
+      description_path: 0.5
+      # Price is extracted using only classifier tags
+      price_uninformed_path: 0.4
+
+    # modify the current score of the element (a score should be previously assigned)
+    path_qty_price_score_modif:
+      # Qty is divided by some multiplier using the qty units (to solve weird values for some units)
+      heuristic_qty_reformatted: -0.1
+      # Price is divided by some multiplier using the price units (to solve weird values for some units)
+      heuristic_price_reformatted: -0.1
+      # Exception during string to float conversion
+      exception: -1.0
+
+    decimal_dot_countries:
+      - REINO UNIDO
+
+    decimal_dot_wsd_contry_score: 17
+
+    # Algorithm used to extract tables (stream or lattice)
+    flavor: 'stream'
+    pages: 'all'
+    output_file_type: 'json'
+
+    table_input_file: "page-1.json"
+
+    # out_tables_debug: "out/product_table"
+
+    # maximum gap allowed in a table (e.g. 3 times the first line)
+    line_gap_multiplier: 10.0
+    
+    # ratio of table overlap in the y axix with the list of elements to accept a table that has no good header
+    table_overlap_no_header: 0.9
+    
+    bad_word_list:
+      - dimensionsaufpreis
+      - poids total
+      - order total
+      - postes ht
+      - total ht
+
+    table_end_marker_list:
+      - poids total
+      - total
+      - observations
+      - vtos.
+      - portes
+      - observacions
+      - gesamtnettowert
+      - tva
+      - terms & conditions
+      - "entrega:"
+      - totaux
+      - special instructions
+      - comments
+      - observ
+      - "Observaciones:"
+      - Additional Notes
+      - Portes pedido
+      - Importe neto
+      - Montant HT Net
+      - Commentaires
+      - ATTENZIONE
+      - SPECIFICHE TECNICHE e TOLLERANZE
+      - "- PRIX"
+      - BASES
+      - "OBSERVACIONES:"
+
+    whitelist_end_marker_list:
+      - total 1
+      - data de entrega
+      - fecha de entrega
+
+    force_y_aligment_px: -2
+
+    parser:
+      split_text: false
+      flag_size: false
+      strip_text: ""
+      edge_tol: 50
+      row_tol: 2
+      column_tol: 0
+
+      # Optional parser parameters
+      # table_regions:
+      # table_areas:
+      # columns:
+
+    # Limits in quanities for tons and kg   
+    quantity_value_limits:
+      tonnes:
+        max: 5000
+        
+      kilograms:
+        min: 50
+
+    price_value_limits:
+      tonnes:
+        max: 10000
+        min: 100
+
+      kilograms:
+        max: 50
+        min: 0.001
+
+    qty_score_reduction: 0.1
+
+    header:
+      header_sim_threshold: 80.0
+
+      incompatibility_header:
+        product_description:
+          - price
+          - delivery_date
+          - quantity
+          - discount
+          - price
+          - units
+
+      # Apply certain penalty to words that can be ambiguous
+      penalty_words:
+        Weight: 10
+        Base: 10
+        Unidades: 10
+        Prix total: 10
+      
+      # special cases when we cannot use the fuzzy library (e.g. weird symbols)
+      special_header_classes:
+        metric:
+          - \u00d8
+          - Ø
+
+      header_classes:
+        product_item:
+          - Page
+          - Item
+          - PRODUCT CODE
+          - Poste
+          - Nº
+          - Product Code
+          - Product
+          - Pos
+          - Código
+          - Artigo
+          - Material code
+          - PO
+          - CODE
+          - Référence
+          - Article
+          - Codice
+          - Pos.
+          - Referencia
+          - Codigo Artigo
+          - Pos. Nº
+          - ITEM #
+          - Stock Code
+          - Line
+          - Rgl
+
+        product_description:
+          - Omschrijving - Kwaliteit
+          - Item
+          - DESCRIPTION
+          - DESCRIPCION
+          - Artikel
+          - Article
+          - Descripción
+          - Descripcién
+          - Product Description
+          - Article Quality
+          - Suplier Ref.
+          - Material
+          - MATERIAL
+          - Bezeichnung
+          - Designação
+          - Specification
+          - Einheit
+          - Designation
+          - Désignation
+          - REFERENCE FOURNISSEUR
+          - Definition
+          - Descrizione
+          - Materiale/descrizione
+          - Descripció
+          - Dimension
+          - Descriçao
+          - Descrição
+          - Denominación producto / servicio
+          - Descrip.
+          - Item number Description
+          - Einheit
+          - Artikelbezeichnung
+          - Ref fournisseur
+          - Denominación
+          - Beschreibung
+          - Omschrijving
+          - Material
+          - DESCRIZIONE
+          - D E S C R I P C I O N
+
+        delivery_date:
+          - Delivery date
+          - Due Date
+          - Date Required
+          - Del.date
+          - DELAI Sem/Ann
+          - Prév.
+          - Date
+          - Delivery
+          - Fecha de entrega
+          - Dt. Entrega
+          - F. entrega
+          - Data ent.
+          - DATA ENTR.
+          - Delivery Week
+          - Data de Entrega
+          - Data d'entrega
+          - Lieferdatum
+          - Leverdtm
+          - Week
+          - LLIURAMENT
+          - ENTREGA
+          - CONSEGNA
+
+        quantity:
+          - Aantal
+          - Quantity
+          - QTY/UNIT
+          - CANTIDAD
+          - Hoeveelheid
+          - Qté/Base
+          - Qt\u00e9/Base
+          - Cantidad
+          - Cant.
+          - Qty Ordered
+          - Number Unit
+          - Menge
+          - Qtd
+          - Qtd.
+          - Quantidade
+          - QUANTITE
+          - Qté
+          - Quantité
+          - QUANTITES
+          - Qte(UCF)
+          - Qte(UVF)
+          - Quantità
+          - Quantità
+          - Unitats
+          - Quantity, t
+          - Quantidade
+          - QTY
+          - Qty Ord.
+          - Menge
+          - Menge ME
+          - Bestellt BE
+          - Cant.
+          - Unidades
+          - TNS
+          - Aantal
+          - Hoeveelh.
+          - Quantity Unit
+          - Outstanding
+          - Tonnes
+          - TON
+          - Tonnellate
+          - Quantita
+          - Quantità
+          - Quantitat
+          - Weight
+          - UN/BAR
+          - Tn/Km
+          - OPU
+          - Qty Ordered Units
+          - Gewicht
+          - Qté théorique
+          - QUANTITA
+          - KG./ Mt./M2
+          - Cdad.
+          - KG. PEDIDOS
+          - Cdad.
+          - Metraje
+
+
+        discount:
+          - "Discount-%"
+          - "DISC %"
+          - Korting
+          - "Dto %"
+          - "Disc %"
+          - "% Desconto"
+          - Dte.
+          - Desc
+          - Descontos
+          - Remise
+
+        price:
+          - IMPORT
+          - Price
+          - Net price
+          - RATE
+          - Prijs
+          - Total
+          - Totaal
+          - Prix
+          - Prix unitaire
+          - Coste unitario
+          - Unit Price
+          - Price in EUR
+          - Price in GBP
+          - Unit Per
+          - Preis EUR
+          - Preço
+          - Price/Tonne
+          - Preço Unit.
+          - Price / Unit
+          - Prix Unit
+          - Prix U.
+          - Remise Prix Net          
+          - Prix unitaire
+          - Px achat
+          - Precio Uni
+          - P.U
+          - PU
+          - PU net
+          - Prezzo
+          - Prezzo netto
+          - Preço unitário
+          - Preu
+          - Price €/t
+          - Preço Unit.
+          - Precio/Un
+          - UNIT PRICE
+          - Price per UOM
+          - Euro / Ton
+          - Price €/t, CFR port Muuga
+          - UNIT PRICE £
+          - Preis
+          - PMe
+          - Preis PE
+          - Einzelpreis EUR
+          - Precio Uni
+          - Euro / Ton
+          - Compra
+          - PBAS
+          - Unit Cost
+          - Pr. Unitário
+          - Prijs p/ehd
+          - PA unit.
+          - €/ton
+          - PREZZO
+          - Base
+          - compra
+          - Precio compra
+
+        units:
+          - Units
+          - Unit Per
+          - Preiseinheit
+          - Bestellt
+          - PMe
+          - Unidad
+          - Unidades
+          - OPU
+          - Unit of Measure
+          - tons
+
+        metric:
+          - L\u00e4nge
+          - Länge
+          - Longitud
+          - Meters
+          - Length
+          - Largo
+          - Mtrs
+          - LxBxD
+          - Formato
+          - MED
+          - MED LONG
+          - Diâm. (mm)
+          - Lengte
+          - dimensões
+          - long.
+
+        other:
+          - Rm(N/mm2)
+          - c
+          - S
+          - P
+          - N
+          - Cu
+          - Ceq
+          - ARTIC CANTIDAD UND.
+          - Per
+
+    cell:
+      # Minimum number of columns to generate splits
+      min_column_split: 2
+
+
+    metricweight_units:
+      tonnes:
+        - TONNES
+        - TO
+        - T
+        - TNS
+        - TMS
+        - TONELADAS
+      kilograms:
+        - KG
+        - KILOGRAMS
+        - KGR
+
+      # default value
+      default: "tonnes"
+
+    product_description_parser:
+      abbreviatures:
+        M: METERS
+        ML: METERS
+        METRES: METERS
+        METRE: METERS
+        METER: METERS
+        METRO: METERS
+        METROS: METERS
+        MT: METERS
+        MTR: METERS
+        MTS: METERS
+        MTRS: METERS
+        M\u00e8tres: METERS
+        MTRSCARES: METERS
+        HL: METERS
+        M/M: MILIMETERS
+        MM: MILIMETERS
+        CA: MILIMETERS
+        A: MILIMETERS
+        T: TONNES
+        TM: TONNES
+        TMS: TONNES
+        TO: TONNES
+        TON: TONNES
+        TONS: TONNES
+        TN: TONNES
+        TNS: TONNES
+        TONELADAS: TONNES
+        TONNE: TONNES
+        TONNES: TONNES
+        TONNELLATE: TONNES
+        KG: KILOGRAMS
+        BUNDLE: PACKS
+        BUNDLES: PACKS
+        PAQUETE: PACKS
+        PAQUETES: PACKS
+        PACCO: PACKS
+        PACCHI: PACKS
+        CAMIÓN: TRUCKS
+        CAMIONES: TRUCKS
+        TRUCK: TRUCKS
+        BD: PACKS
+        PQT: PACKS
+        PQTS: PACKS
+        PTE: PACKS
+        PTES: PACKS
+        PTS: PACKS
+        PC: PIECES
+        PIECE: PIECES
+        KILOS: KILOGRAMS
+
+      forward_abbreviatures:
+        \u00d8: DIAMETER
+        F: DIAMETER
+        Ø: DIAMETER
+        H: DIAMETER
+        DIAM: DIAMETER
+        DIAMETRO: DIAMETER
+        HL: METERS
+        HA: DIAMETER
+        "&": DIAMETER
+        DM: DIAMETER
+        D: DIAMETER
+        SD: DIAMETER
+        L: FORWARDMETERS
+        LG: FORWARDMETERS
+
+      special_abbreviatures:
+        UPN: DIAMETER
+        UNP: DIAMETER
+        U: DIAMETER
+        CARRE: DIAMETER
+        ALAMBRON: DIAMETER
+        RD: DIAMETER
+        ANG: DIAMETER
+        ANGLE: DIAMETER
+        VARAO: DIAMETER
+
+      qualities_files:
+        internal_quality: common/configuration/products/intquality_uniq.txt
+        external_quality: common/configuration/products/extquality_uniq.txt
+        external_norm: common/configuration/products/extnorm_uniq.txt
+
+      product_alias: common/configuration/products/alias_to_cns.json
+
+      # Threshold to dump the results
+      score_threshold: 75
+      
+      # score applied to external qualities (that has not the highest score)
+      score_threshold_extra: 90
+      
+      # Dimensions that corresponds to weights      
+      weight_dimensions:
+        - PACKS
+        - PIECES
+        - TONNES
+        - TRUCKS
+        - KILOGRAMS
+
+      # Maximum value of a dimension
+      max_dimension_value: 200000
+
+  # configuration of the note parser
+  note_parser:
+    # maximum number of lines to jump in order to join notes
+    max_line_jumps: 3
+
+  email_parser:
+    email_domains:
+      - "es"
+      - "org"
+      - "com"
+      - "uk"
+      - "de"
+      - "eu"
+      - "nl"
+      - "pt"
+      - "net"
+      - "pl"
+      - "it"
+      - "be"
+      - "ie"
+      - "no"
+    symbols_replace_at_in_ocr_errors:
+      - " O"
+      - " G"
+      - " Q"
+      - " 0"
+      - "O"
+      - "G"
+      - "Q"
+      - "0"
+
+  address_parser:
+    # maximum number of lines to jump in order to join address
+    max_line_jumps: 2
+    # Maximum number of words, which below this value, an element is not parsed and it is directly considered to be all of it part of an address
+    max_words_address: 5
+    # Above this number of words in a parsed address, is considered a full address as will not be joined with other elements or lines
+    max_words_considered_unique_address: 10
+    # Max distance in pixels to consider two address elements of the same line being part of the same address
+    max_horizontal_distance_elements: 45
+
+  deliveryaddress:
+    #max_distance_score: Value of distance to normalize the score. Higher than this distance score is 0
+    max_distance_score: 450
+
+  deliverydate:
+    #max_distance_score: Value of distance to normalize the score. Higher than this distance score is 0
+    max_distance_score: 800
+
+  orderid:
+    #max_distance_score: Value of distance to normalize the score. Higher than this distance score is 0
+    max_distance_score: 400
+    remove_words_order_ref:
+      - 'N* de Pedido del Cliente'
+      - 'Nº de Pedido del Cliente'
+      - "n* de pedido del cliente"
+      - "purchase order -"
+      - "order no"
+      - "purchase order"
+      - "numero de pedido"
+      - "número de pedido"
+      - "numero de pedido:"
+      - "numero"
+      - "número"
+      - "pedido de compra"
+      - "de compra"
+      - "encomenda"
+      - "purchase"
+      - "order"
+      - "reference"
+      - "reference:"
+      - "referencia:"
+      - "referencia"
+      - "number"
+      - "commande d'achat"
+      - "commande dachat"
+      - "orden compra"
+      - ": "
+      - "COMMANDE FOURNISSEUR"
+      - "nº"
+      - "no."
+      - "a fornecedor"
+      - "pedido"
+      - "id"
+      - "po "
+
+    # elements tagged as orderind that contains any of these words will be not used as orderind
+    blacklist_orderind:
+      - " fax"
+      - "PEDIDO/APROBADO POR: "
+      - "enviado por"
+      - "aprobado por"
+      - "D E S C R I P C I O N"
+      - "descripcion"
+      - "Pos.  N"
+      - "Pos. N"
+      - "Nº Hojas"
+      - "order raised by"
+      - "No Back Orders will be accepted"
+      - "codigo postal"
+      - "Nº TVA"
+      - "ROAD ORDERS ONLY"
+      - "CÓDIGO POSTAL"
+      - "Unit Qty Ordered"
+      - "VERSANDVERMERKE"
+      - "V E R S A N D V E R M E R K E"
+      - "Bestellungsdatum"
+      - "Registered in England"
+      - "Registerad in England"
+      - "completar"
+      - "1 paq"
+
+  payment_note:
+    #max_distance_score: Value of distance to normalize the score. Higher than this distance score is 0
+    max_distance_score: 100
+
+  cif_parser:
+    cif_indicators: #will be normalized to lower and symbols "." and ":" will be removed
+      - vat number
+      - vat reg no
+      - vat no
+      - VAT code
+      - Vat reg
+      - BTW (VAT)
+      - vat
+      - TVA Intracommunautaire
+      - tva
+      - c1f #for OCR errors
+      - cif
+      - nipc
+      - nif
+      - N.I.F n.º
+      - btw
+      - Contribuinte nº
+      - IVA N°
+
+  #terms to parse every type of currency. is lowercase
+  currency_parser:
+    currency_config_file: common/configuration/currency_config_file.json
+
+
+
+payment_note:
+  #max_distance_score: Value of distance to normalize the score. Higher than this distance score is 0
+  max_distance_score: 100
+
+
+ocr_conversor:
+  row_tol: 20
+
+system_rules:
+  # Rule that if there is a header line in the OCR output but not in the camelot output uses the OCR.
+  # Add clients that are exceptions for this rule
+  exception_clients_header_ocr_rule:
+
+
+onnx:
+  multi:
+    model_name_or_path: models/multi/onnx/model.onnx
+    tokenizer_name: models/multi/tokenizer/
+
+    # Maximum lenght (in tokens) of the sequence
+    max_seq_length: 100
+
+    # classification is the only one fully supported by this code
+    # single_label_classification or multi_label_classification
+    output_mode: multi_label_classification
+
+    # Threshold to accept a sample as positive (only in multi_label_classification)
+    multi_sigmoid_threshold: 0.5
+    return_token_type_ids: False
+
+    label_list:
+      - ADDRESS1
+      - ADDRESSX
+      - COMPANY
+      - CURRENCY
+      - DATE
+      - DATEIND
+      - DELIVERYIND
+      - EMAIL
+      - EXTNORM
+      - EXTQUALITY
+      - HOUR
+      - MESH_CODE
+      - MESH_FORMAT
+      - METRIC
+      - METRICWEIGHT
+      - METRICWEIGHT_KG
+      - METRICWEIGHT_PACK
+      - METRICWEIGHT_TON
+      - NOTE
+      - ORDERID
+      - ORDERIND
+      - PAYMENT_IND
+      - PAYMENT_NOTE
+      - PERSON
+      - PRICE
+      - PRODUCT
+      - TRUCK_NOTE
+      - NOCLASS
+
+  single:
+
+    model_name_or_path: models/single/onnx/model.onnx
+    tokenizer_name: models/single/tokenizer/
+
+    # Maximum lenght (in tokens) of the sequence
+    max_seq_length: 100
+
+    # classification is the only one fully supported by this code
+    # single_label_classification or multi_label_classification
+    output_mode: single_label_classification
+
+    # Threshold to accept a sample as positive (only in multi_label_classification)
+    multi_sigmoid_threshold: 0.5
+    return_token_type_ids: False
+
+    label_list:
+      - NOCLASS
+      - HEADER
+
+
+
+
+

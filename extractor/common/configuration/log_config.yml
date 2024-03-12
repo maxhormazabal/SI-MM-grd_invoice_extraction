@@ -1,0 +1,79 @@
+main:
+  console_level: 'DEBUG'
+  file_level: 'DEBUG'
+  file_path: 'logs/extractor.log'
+
+external_modules:
+  camelot:
+    console_level: 'DEBUG'
+    file_level: 'INFO'
+
+  urllib3:
+    console_level: 'INFO'
+    file_level: 'INFO'
+
+internal_modules:
+  infra:
+    console_level: 'DEBUG'
+    file_level: 'DEBUG'
+    file_path: 'logs/extractor.log'
+
+  controller:
+    console_level: 'INFO'
+    file_level: 'DEBUG'
+    file_path: 'logs/extractor.log'
+
+  service:
+    console_level: 'INFO'
+    file_level: 'DEBUG'
+    file_path: 'logs/extractor.log'
+
+  desamb:
+    console_level: 'DEBUG'
+    file_level: 'TRACE'
+    file_path: 'logs/desambiguator.log'
+
+  format:
+    console_level: 'DEBUG'
+    file_level: 'TRACE'
+    file_path: 'logs/formatters.log'
+
+  format.output:
+    console_level: 'DEBUG'
+    file_level: 'TRACE'
+    file_path: 'logs/formatters.log'
+
+  labeler:
+    console_level: 'DEBUG'
+    file_level: 'TRACE'
+    file_path: 'logs/formatters.log'
+
+  labeler.onnx:
+    console_level: 'DEBUG'
+    file_level: 'TRACE'
+    file_path: 'logs/formatters.log'
+
+  parser:
+    console_level: 'DEBUG'
+    file_level: 'TRACE'
+    file_path: 'logs/parsers.log'
+  
+  parser.product:
+    console_level: 'DEBUG'
+    file_level: 'TRACE'
+    file_path: 'logs/parsers.log'
+
+  pdfreader:
+    console_level: 'DEBUG'
+    file_level: 'INFO'
+    file_path: 'logs/extractor.log'
+
+  PyPDF2:
+    console_level: 'INFO'
+    file_level: 'INFO'
+    file_path: 'logs/extractor.log'
+
+  dateparser:
+    console_level: 'INFO'
+    file_level: 'INFO'
+    file_path: 'logs/extractor.log'

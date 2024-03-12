@@ -1,0 +1,9 @@
+flake8
+nose
+rednose
+requests
+pycountry
+sphinx
+sphinx_rtd_theme
+unittest2
+enum34

@@ -1,0 +1,1862 @@
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "Account number: 74868535\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'Account number: 74868535\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'Account number: 74868535\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Account number: 74868535
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 94619, 11487,   131, 67528, 11211, 69975, 76897,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-12.104398   -8.35236   -11.4185    -11.121968  -12.5136595 -11.687395
+  -11.116541  -11.613611  -13.326962  -13.356147  -13.520023  -14.216629
+  -15.353247  -13.149856  -12.122335  -12.402988  -13.912822  -13.377955
+   -8.955569   -9.147042   -8.01026   -11.668419  -12.35977   -10.16547
+   -4.7586594 -10.991625  -14.838938 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "Sort code: 51-50-03\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'Sort code: 51-50-03\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'Sort code: 51-50-03\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Sort code: 51-50-03
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 12882, 10976, 16964,   131, 11524,   118, 10462,   118,
+        10907,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[ -7.1198015   -6.4095016   -8.542559   -10.013911    -6.4591007
+   -6.7816463   -8.875307   -10.103244    -7.662799    -9.882556
+  -10.492814   -10.622684   -11.188668    -9.124767    -9.769008
+  -10.693114   -11.486713   -10.409475    -9.9833145    2.7539365
+    0.67127264 -10.604114   -10.651253    -8.774968    -7.645845
+   -7.7592897  -11.746264  ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "Statement\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'Statement\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'Statement\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Statement
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 11104, 10426,   102]]), 'attention_mask': array([[1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.788515  -10.825851  -10.418811  -11.059948  -10.89287   -10.663898
+   -8.799781   -9.680333  -10.911112  -10.832222  -10.642329  -13.824763
+  -14.100964  -11.687119  -10.638222  -12.619507  -10.978435  -11.043827
+    3.7839904 -11.066814  -10.658328   -5.977283   -6.578103   -9.399017
+   -7.0438643  -9.504105  -10.207884 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "BIC: NWBKGB2L\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'BIC: NWBKGB2L\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'BIC: NWBKGB2L\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | BIC: NWBKGB2L
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101,   139, 30889,   131,   151, 13034, 11274, 11733, 32469,
+        10729, 11369,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[ -8.973029   -2.5452702  -5.555048  -10.994905  -10.836697  -10.417295
+  -13.39563   -10.987022  -13.541647  -10.015442  -10.770312  -11.760341
+  -13.032158  -11.214275  -10.742195  -11.147434  -11.226177  -12.879873
+  -11.20295   -11.211813  -11.2593155 -13.699133  -12.821985   -8.830181
+   -9.653669   -7.1419106 -13.884948 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "IBAN: GB49 NWBK 5150 0374 8685 35\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'IBAN: GB49 NWBK 5150 0374 8685 35\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'IBAN: GB49 NWBK 5150 0374 8685 35\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | IBAN: GB49 NWBK 5150 0374 8685 35
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101, 110503,  41275,    131,  32258,  99808,    151,  13034,
+         11274,  11733,  41211,  10929, 110384,  11011,  78906,  11166,
+         10803,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[ -9.857737     0.20812522 -11.278862   -11.5765085  -10.55061
+  -10.932443   -12.566781   -11.095704   -11.965876    -9.79591
+  -10.317478   -11.753562   -13.385126   -10.242465   -10.222746
+  -10.709446   -10.970117   -12.1131      -9.822576   -10.755108
+  -12.428244   -12.926149   -11.680353    -9.257583    -7.351655
+   -8.306113   -13.029119  ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "SELECT ACCOUNT\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'SELECT ACCOUNT\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'SELECT ACCOUNT\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | SELECT ACCOUNT
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  23056,  51036,  91995, 106857,  11403,  69849,  11090,
+           102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-12.021259   -6.915349  -10.520423  -11.216856  -12.181532  -11.845373
+  -13.913733  -11.5858345 -13.9325285 -12.57571   -11.350733  -13.917938
+  -14.699343  -10.902952  -11.577116  -12.523453  -12.097144  -12.745487
+   -5.169311  -12.999452  -12.952625  -12.839344  -11.786043  -10.351618
+   -8.06556    -8.620705  -13.238155 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "M\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'M\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'M\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | M
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 150, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.419887  -9.219206 -11.351933 -12.647009 -11.538118 -10.786393
+  -12.570361 -11.533901 -12.830343 -11.710041 -12.644932 -14.65253
+  -16.14686  -11.216188 -10.585533 -10.854732 -14.248719 -12.388195
+  -12.35209  -11.425673 -11.017559 -13.199087 -13.321234 -11.503815
+   -9.315537 -11.631208 -14.664875]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "R\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'R\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'R\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | R
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 155, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.59463    -9.412045  -11.2529125 -11.932877  -12.184284  -11.034687
+  -12.585505  -12.363241  -12.886034  -12.147961  -13.132603  -14.992467
+  -16.339865  -12.556236  -11.230241  -11.377872  -14.442394  -13.153975
+  -11.444523  -10.935352   -9.733367  -13.369865  -13.361023  -11.748013
+   -8.783583  -11.37714   -14.864835 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": " \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': ' \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': ' \n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         |  
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "H\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'H\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'H\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | H
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 145, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.194895   -9.031284  -11.150209  -11.850461  -11.409314  -11.007056
+  -12.596123  -11.80398   -13.771376  -12.361019  -12.209839  -15.048523
+  -16.57072   -11.837393   -9.794674  -10.325187  -14.52326   -11.7139015
+  -12.249239  -12.000239  -11.661896  -13.359841  -13.486388  -11.506693
+   -8.981729  -12.207552  -14.860447 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "J\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'J\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'J\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | J
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 147, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.068988   -9.681497  -10.1125765 -11.085455  -10.637888   -9.718614
+  -12.028368  -10.90569   -12.843327  -11.853758  -11.905396  -14.693195
+  -16.24352   -11.401985   -8.160757   -8.803185  -13.63593   -10.436903
+  -12.760847  -11.113222  -10.063738  -12.0886135 -12.653142  -10.381132
+   -8.469441  -12.403102  -14.167799 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "O\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'O\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'O\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | O
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 152, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.859138   -8.4903145 -10.547638  -11.841206  -12.156466  -11.416349
+  -13.075251  -12.339924  -13.591637  -12.852331  -12.873669  -14.944913
+  -16.306206  -13.022232  -10.301281  -11.368708  -13.779406  -12.172904
+  -11.54741   -11.427314  -10.441138  -13.262758  -13.435282  -11.615011
+   -9.024524  -11.754507  -14.686731 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "N\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'N\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'N\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | N
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 151, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.840003   -9.061551  -10.40266   -12.159227  -12.321139  -11.148438
+  -12.521871  -12.1672945 -13.493681  -12.686589  -12.863086  -15.092171
+  -16.358368  -12.694376  -10.127567  -11.284217  -13.932105  -12.022322
+  -11.167688  -11.299967   -9.46145   -13.1894455 -13.613734  -11.456871
+   -9.724855  -11.566701  -14.521074 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": " \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': ' \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': ' \n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         |  
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "N\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'N\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'N\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | N
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 151, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.840003   -9.061551  -10.40266   -12.159227  -12.321139  -11.148438
+  -12.521871  -12.1672945 -13.493681  -12.686589  -12.863086  -15.092171
+  -16.358368  -12.694376  -10.127567  -11.284217  -13.932105  -12.022322
+  -11.167688  -11.299967   -9.46145   -13.1894455 -13.613734  -11.456871
+   -9.724855  -11.566701  -14.521074 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "M\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'M\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'M\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | M
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 150, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.419887  -9.219206 -11.351933 -12.647009 -11.538118 -10.786393
+  -12.570361 -11.533901 -12.830343 -11.710041 -12.644932 -14.65253
+  -16.14686  -11.216188 -10.585533 -10.854732 -14.248719 -12.388195
+  -12.35209  -11.425673 -11.017559 -13.199087 -13.321234 -11.503815
+   -9.315537 -11.631208 -14.664875]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "A\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'A\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'A\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | A
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 138, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.931267  -8.686514 -10.927547 -12.386609 -11.730087 -11.297643
+  -13.337486 -12.17627  -13.08614  -11.972125 -12.959847 -14.654316
+  -16.09716  -12.754944 -11.724318 -11.903773 -13.842829 -13.594662
+  -11.057475 -11.679991 -11.550508 -13.238322 -12.927544 -11.892725
+   -8.574053 -11.774017 -14.817219]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "N\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'N\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'N\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | N
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 151, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.840003   -9.061551  -10.40266   -12.159227  -12.321139  -11.148438
+  -12.521871  -12.1672945 -13.493681  -12.686589  -12.863086  -15.092171
+  -16.358368  -12.694376  -10.127567  -11.284217  -13.932105  -12.022322
+  -11.167688  -11.299967   -9.46145   -13.1894455 -13.613734  -11.456871
+   -9.724855  -11.566701  -14.521074 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "O\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'O\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'O\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | O
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 152, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.859138   -8.4903145 -10.547638  -11.841206  -12.156466  -11.416349
+  -13.075251  -12.339924  -13.591637  -12.852331  -12.873669  -14.944913
+  -16.306206  -13.022232  -10.301281  -11.368708  -13.779406  -12.172904
+  -11.54741   -11.427314  -10.441138  -13.262758  -13.435282  -11.615011
+   -9.024524  -11.754507  -14.686731 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "I\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'I\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'I\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | I
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 146, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.663006  -9.086327 -11.621714 -12.239133 -11.819306 -11.578967
+  -13.055886 -11.501285 -13.293354 -11.984941 -12.999903 -14.778399
+  -16.451157 -12.161986 -10.467705 -10.691343 -14.025352 -12.607054
+  -11.64642  -11.97725  -11.931197 -13.239565 -13.272009 -11.752616
+   -8.317271 -12.267728 -14.784493]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "Z\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'Z\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'Z\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Z
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 163, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.494588   -8.451517  -10.806545  -12.227732  -11.988293  -11.139817
+  -12.728744  -12.210516  -13.403561  -11.984852  -12.599194  -14.86406
+  -16.495718  -13.082277   -9.81788   -10.250681  -13.961506  -12.373724
+  -11.183054  -11.00369   -10.61607   -13.103907  -13.252873  -11.6798115
+   -9.582069  -12.125985  -14.649919 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": " \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': ' \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': ' \n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         |  
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "S\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'S\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'S\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | S
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 156, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.716568   -6.698453   -9.214727  -12.158137  -12.20259   -10.199912
+  -12.5149    -12.709797  -12.997171   -9.870042  -12.372948  -13.889643
+  -15.170473  -13.017033  -11.081481  -12.512902  -13.279929  -12.482536
+   -9.971488  -12.358539  -11.6553955 -12.945148  -12.486401  -11.248302
+  -10.597625   -9.285616  -14.479164 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "E\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'E\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'E\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | E
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 142, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.449691   -8.868784  -11.221973  -11.612921  -11.427286  -10.534224
+  -12.923768  -11.690012  -12.996265  -11.413555  -12.843679  -14.415485
+  -15.912941  -12.042902  -11.016272  -11.272033  -14.206491  -12.8163595
+  -12.485857  -11.3387375 -10.768257  -13.165894  -13.104437  -11.239571
+   -9.385292  -11.369019  -14.803472 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "L\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'L\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'L\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | L
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 149, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.58186    -9.066687  -11.2597065 -12.273605  -11.9539995 -10.442998
+  -12.720301  -12.24888   -13.50042   -11.763026  -12.901932  -14.91898
+  -16.15929   -10.89789   -10.223355  -11.039586  -14.104078  -11.965311
+  -12.8236885 -11.819743  -11.459715  -13.657829  -13.489696  -11.253258
+   -9.499426  -10.33571   -14.629445 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "E\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'E\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'E\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | E
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 142, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.449691   -8.868784  -11.221973  -11.612921  -11.427286  -10.534224
+  -12.923768  -11.690012  -12.996265  -11.413555  -12.843679  -14.415485
+  -15.912941  -12.042902  -11.016272  -11.272033  -14.206491  -12.8163595
+  -12.485857  -11.3387375 -10.768257  -13.165894  -13.104437  -11.239571
+   -9.385292  -11.369019  -14.803472 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "C\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'C\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'C\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | C
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 140, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.260649   -8.5256815 -11.305431  -12.241088  -11.892285  -11.443444
+  -13.328629  -12.094754  -13.241278  -12.006318  -12.712655  -14.841103
+  -16.475742  -11.996581  -10.893845  -10.8823805 -14.051705  -13.167192
+  -11.953115  -11.262976  -11.223249  -13.623427  -13.363558  -11.832529
+   -9.301931  -11.875672  -14.681618 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "T\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'T\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'T\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | T
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 157, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[ -8.898986   -7.4104557  -7.417511   -5.7929935  -9.197274   -8.26254
+   -7.9396877  -8.236056  -10.441378   -9.832297  -10.005413  -11.774593
+  -12.482456   -8.135923    5.789048   -7.046317   -7.992954    6.1195464
+   -7.6588073  -8.159195   -9.30016    -9.23736   -10.072892   -9.589986
+   -6.0027     -8.210324   -9.532136 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": " \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': ' \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': ' \n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         |  
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "A\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'A\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'A\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | A
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 138, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.931267  -8.686514 -10.927547 -12.386609 -11.730087 -11.297643
+  -13.337486 -12.17627  -13.08614  -11.972125 -12.959847 -14.654316
+  -16.09716  -12.754944 -11.724318 -11.903773 -13.842829 -13.594662
+  -11.057475 -11.679991 -11.550508 -13.238322 -12.927544 -11.892725
+   -8.574053 -11.774017 -14.817219]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "C\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'C\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'C\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | C
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 140, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.260649   -8.5256815 -11.305431  -12.241088  -11.892285  -11.443444
+  -13.328629  -12.094754  -13.241278  -12.006318  -12.712655  -14.841103
+  -16.475742  -11.996581  -10.893845  -10.8823805 -14.051705  -13.167192
+  -11.953115  -11.262976  -11.223249  -13.623427  -13.363558  -11.832529
+   -9.301931  -11.875672  -14.681618 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "C\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'C\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'C\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | C
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 140, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.260649   -8.5256815 -11.305431  -12.241088  -11.892285  -11.443444
+  -13.328629  -12.094754  -13.241278  -12.006318  -12.712655  -14.841103
+  -16.475742  -11.996581  -10.893845  -10.8823805 -14.051705  -13.167192
+  -11.953115  -11.262976  -11.223249  -13.623427  -13.363558  -11.832529
+   -9.301931  -11.875672  -14.681618 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "U\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'U\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'U\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | U
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 158, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[ -9.412287   -5.5795107  -5.8060284  -9.692775  -11.202665   -9.193112
+  -10.129015  -12.206188   -9.627308   -7.5238748 -11.15544    -9.928676
+   -8.560818   -8.039513   -6.142662  -10.769373   -6.2479706  -8.712801
+   -6.189949   -8.8822975  -5.9937897 -11.107799  -10.727992   -6.4213667
+   -9.174283    2.5027268  -9.541203 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "O\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'O\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'O\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | O
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 152, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.859138   -8.4903145 -10.547638  -11.841206  -12.156466  -11.416349
+  -13.075251  -12.339924  -13.591637  -12.852331  -12.873669  -14.944913
+  -16.306206  -13.022232  -10.301281  -11.368708  -13.779406  -12.172904
+  -11.54741   -11.427314  -10.441138  -13.262758  -13.435282  -11.615011
+   -9.024524  -11.754507  -14.686731 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "N\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'N\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'N\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | N
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 151, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-11.840003   -9.061551  -10.40266   -12.159227  -12.321139  -11.148438
+  -12.521871  -12.1672945 -13.493681  -12.686589  -12.863086  -15.092171
+  -16.358368  -12.694376  -10.127567  -11.284217  -13.932105  -12.022322
+  -11.167688  -11.299967   -9.46145   -13.1894455 -13.613734  -11.456871
+   -9.724855  -11.566701  -14.521074 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "T\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'T\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'T\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | T
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 157, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[ -8.898986   -7.4104557  -7.417511   -5.7929935  -9.197274   -8.26254
+   -7.9396877  -8.236056  -10.441378   -9.832297  -10.005413  -11.774593
+  -12.482456   -8.135923    5.789048   -7.046317   -7.992954    6.1195464
+   -7.6588073  -8.159195   -9.30016    -9.23736   -10.072892   -9.589986
+   -6.0027     -8.210324   -9.532136 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "Branch Details\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'Branch Details\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'Branch Details\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Branch Details
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 27544, 67873,   102]]), 'attention_mask': array([[1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-12.263031  -10.282731  -11.835671  -10.508941  -11.427844   -9.381791
+  -13.206432   -9.125386  -12.149698  -11.680286  -13.200865  -14.8132
+  -16.132444  -11.484567  -10.452625  -11.007816  -13.479532  -12.189523
+  -10.351991  -12.29422   -11.007301  -13.27739   -12.813427  -11.118053
+   -8.2228775 -12.161358  -14.920942 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "Your current details\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'Your current details\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'Your current details\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Your current details
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 13554, 14978, 29500,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-12.033098   -8.489018  -12.18684   -10.6323395 -11.209991   -9.892754
+  -13.652117   -9.985615  -12.45732   -11.219253  -13.025158  -14.395733
+  -15.910444  -12.242384  -11.240343  -11.255299  -13.4553585 -13.222101
+  -10.765123  -11.850145  -10.927048  -13.282562  -12.435532  -11.3222685
+   -7.8292503 -12.107346  -14.944363 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "Period\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'Period\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'Period\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Period
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 65476,   102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[ -8.050416   -7.5958605  -9.001188  -10.004482   -6.0480247   4.402953
+   -6.541568   -9.203884   -8.670047   -8.170914   -8.983002  -11.234537
+  -10.685202   -7.691986   -8.974623  -10.402982   -9.309096   -9.812782
+   -6.0921793  -8.212645   -6.0653305  -9.436825   -6.1461916  -8.515814
+   -7.7063065  -7.7036257 -10.551426 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "21 Sep 2019 to 20 Mar 2020\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': '21 Sep 2019 to 20 Mar 2020\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': '21 Sep 2019 to 20 Mar 2020\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | 21 Sep 2019 to 20 Mar 2020
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10296, 67281, 19493, 10114, 10197, 15734, 23607,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[ -7.1295753  -7.4967003  -7.7436743  -7.73586     9.769833   -2.7244387
+   -8.229637   -9.686267   -7.9634914  -6.8750677  -4.3003926 -10.552744
+   -9.395399   -7.5851674  -6.47474    -8.047759   -7.834182   -8.752111
+   -3.037589   -6.54263    -7.860429   -9.204173   -7.603673   -8.405319
+   -6.795003   -8.6095705  -8.346873 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "LONDON BRIDGE\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'LONDON BRIDGE\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'LONDON BRIDGE\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | LONDON BRIDGE
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,    149,  30118, 104847,  11537,  49351,  28895,  58719,
+           102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[  3.984477     0.11419976  -5.967021    -9.617416    -8.567684
+   -8.55227     -4.937723   -10.562157    -9.112454    -7.55236
+   -6.9792275   -9.832891    -8.232675    -5.4261007   -8.248987
+   -7.6231155   -9.1608305  -10.720247    -5.51368     -6.941327
+   -4.637658   -10.022837    -8.395088    -2.5690706   -8.366146
+   -0.07889369  -5.2934895 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "MR JOHN MANZONI     \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'MR JOHN MANZONI     \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'MR JOHN MANZONI     \n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | MR JOHN MANZONI     
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 52157,   147, 55859, 11537, 73020, 13966, 30118, 11281,
+          102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[ -0.61910546  -0.8691014   -3.760347    -9.434896    -8.766834
+   -9.863333    -7.1944695   -6.920657   -10.159048    -8.390669
+   -6.7519107  -10.898142   -10.643702    -7.900407    -9.005735
+   -8.099121   -10.697657   -10.061665    -6.1911507   -7.383506
+   -7.739106   -10.406939   -10.41347      6.141687    -9.05312
+   -5.599702    -7.9168444 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "\u00a312,121.71\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': '£12,121.71\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': '£12,121.71\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | £12,121.71
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101, 110642,  10729,    117,  17418,    119,  12513,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[ -7.085637   -7.2984586  -6.70015     8.244985   -6.6158056  -7.1988335
+   -9.119881   -7.175976   -9.962769   -8.29014    -9.056331   -8.098125
+   -8.433095   -8.773542   -6.069744   -7.6937056  -9.959928   -6.425025
+   -6.5204945  -7.0711546  -6.8549566  -7.6505604  -6.702963   -6.8882933
+    7.6383457  -6.0227413 -10.68258  ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "Previous Balance\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'Previous Balance\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'Previous Balance\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Previous Balance
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  35248,  18574,  10251, 100777,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[-10.995758  -10.113986  -10.393542  -10.468704  -11.442342  -10.13796
+   -5.316804   -9.51478   -10.81228   -11.263014   -9.110435  -14.019814
+  -14.27829   -11.441184   -9.680554  -10.760284  -12.165575  -10.255968
+    2.2833822 -13.001415  -10.782596   -8.540893   -9.631969   -7.6142015
+   -6.4028664  -9.834447  -11.955704 ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "PO BOX 35\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': 'PO BOX 35\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': 'PO BOX 35\n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | PO BOX 35
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101,   153, 11403,   139, 72185, 10803,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result_list [[  5.7726      -1.8198305   -7.1157055   -8.283572    -8.39315
+   -9.847813    -7.190178   -10.13535     -6.8669624   -5.171465
+   -9.90539     -7.409584    -6.2355666   -3.3223798   -6.778086
+   -8.240168    -9.298567    -7.900613    -7.0259976   -5.2218313
+   -6.8083     -10.529896    -7.774968    -8.0090885   -3.5137515
+    0.08177751  -9.063688  ]] (text_classifier_quant.py:90)
+12-03 12:00:05 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:05 | TRACE    | labeler.onnx         | _test {"text": "10 DOWNING STREET \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:05 | TRACE    | labeler.onnx         | [{'text': '10 DOWNING STREET \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:05 | TRACE    | labeler.onnx         | TEST [{'text': '10 DOWNING STREET \n'}] (text_classifier_quant.py:54)
+12-03 12:00:05 | TRACE    | labeler.onnx         | 10 DOWNING STREET 
+ (text_classifier_quant.py:59)
+12-03 12:00:05 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  10150,  99843, 105844,  50183,  53317,  66014,  52338,
+           102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-5.1184573 -5.0998745 -7.726694  -4.1228714 -9.2554035 -8.243942
+  -9.034639  -8.306196  -9.105978  -6.1099634 -8.217514  -8.638736
+  -7.482027  -3.823691   0.5618737 -8.395232  -0.5094552 -2.5436544
+   3.9765198 -7.7909303 -6.536647  -1.6050118  2.4860396 -9.427883
+  -2.1713486 -2.572608  -3.764659 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "10 SOUTHWARK STREET\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '10 SOUTHWARK STREET\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '10 SOUTHWARK STREET\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 10 SOUTHWARK STREET
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10150, 71020, 65729, 12396, 42196, 11273, 11733, 53317,
+        66014, 52338,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -2.532043    -2.350594    -7.5340395   -6.261137    -9.950859
+  -10.079397    -8.546654    -8.787155    -8.817974    -5.5399065
+   -8.069995    -8.365293    -7.2749767   -2.046535     4.0569296
+   -5.350211     2.4643853   -1.6372833    2.0335279   -9.38947
+   -8.884918    -8.511422    -4.9072237   -8.404623    -4.2245245
+   -0.62386817  -4.2173586 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "WESTMINSTER\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'WESTMINSTER\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'WESTMINSTER\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | WESTMINSTER
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101,   160, 25054, 55032, 27128, 32995, 24093,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -2.5999217  -1.4263601  -8.457685  -12.180874   -9.646566   -9.908173
+   -8.581062  -11.795096  -10.93066   -10.2006     -8.169363  -12.292033
+  -12.535557  -10.51174   -11.740204  -11.237486  -12.727717  -12.510724
+   -6.9252334  -9.030094   -7.846231  -12.206149  -10.840857   -8.994986
+   -8.624415   -7.5943165 -11.474495 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "Paid out\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'Paid out\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'Paid out\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Paid out
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101, 107353,  10162,  10950,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-12.697801   -7.972      -9.140553  -10.54254    -9.964874   -8.145555
+  -12.25165   -11.143513  -11.430399  -10.957258  -11.367561  -13.300838
+  -12.809591  -10.208548   -7.268098  -12.5621805  -4.007762  -11.122334
+   -1.2937016 -10.057392   -6.6693926  -9.146579   -7.321725  -10.583186
+   -8.368623   -6.3697863 -10.011508 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "\u00a3258.27\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '£258.27\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '£258.27\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | £258.27
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101,   201, 69168, 11396,   119, 10365,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -7.529535   -7.639345   -7.289209    7.9174614  -6.548964   -7.1438794
+   -9.122702   -7.317004   -9.913948   -8.226192   -9.182819   -8.354473
+   -8.732348   -8.377123   -5.7445517  -7.5865574 -10.051842   -6.0372477
+   -6.994243   -6.9599905  -7.080445   -7.8335233  -6.8024907  -7.2641993
+    7.9412518  -6.1520195 -10.770244 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "LONDON\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'LONDON\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'LONDON\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | LONDON
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,    149,  30118, 104847,  11537,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -7.1191826   -2.5817308   -8.939542   -10.543225   -10.522676
+   -8.768199    -9.487284   -12.2882805  -11.31708     -9.836025
+   -9.381835   -11.187381   -10.562613    -5.456904    -6.20022
+   -8.433028    -8.197848    -9.082224    -9.74052     -7.7303615
+   -5.9376564  -11.802051   -10.847994    -7.203148    -9.051728
+   -0.32751882  -8.765802  ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "LONDON\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'LONDON\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'LONDON\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | LONDON
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,    149,  30118, 104847,  11537,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -7.1191826   -2.5817308   -8.939542   -10.543225   -10.522676
+   -8.768199    -9.487284   -12.2882805  -11.31708     -9.836025
+   -9.381835   -11.187381   -10.562613    -5.456904    -6.20022
+   -8.433028    -8.197848    -9.082224    -9.74052     -7.7303615
+   -5.9376564  -11.802051   -10.847994    -7.203148    -9.051728
+   -0.32751882  -8.765802  ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "Paid in\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'Paid in\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'Paid in\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Paid in
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101, 107353,  10162,  10106,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.915994   -8.003713  -10.922819  -10.433598  -10.538256   -5.227982
+  -10.868036  -11.948177  -11.300233  -10.645304  -12.918558  -13.503185
+  -13.788248  -10.858031   -9.975053  -12.511778   -9.890112  -11.661015
+   -7.5080295 -10.439442   -6.513317   -9.804557   -8.513938  -11.803384
+   -6.214837   -8.880606  -13.752645 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "\u00a324,262.65\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '£24,262.65\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '£24,262.65\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | £24,262.65
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101,   201, 53398,   117, 25610,   119, 10843,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -6.9158134  -7.087396   -6.887989    7.769122   -6.382098   -7.113879
+   -8.94284    -6.9612775  -9.818863   -8.269331   -9.110384   -8.143151
+   -8.4117775  -8.58239    -5.615238   -7.240383   -9.719858   -6.1434236
+   -6.708494   -6.987816   -6.932557   -7.5977273  -6.6101613  -6.9133153
+    8.463248   -5.974969  -10.460983 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "SE1  1TJ\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'SE1  1TJ\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'SE1  1TJ\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | SE1  1TJ
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 23056, 10759,   122, 11090, 15417,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-10.064777    3.131352   -8.660901  -10.347531   -9.977319  -10.012055
+  -12.521937  -10.95016   -11.843567   -9.350584   -8.883183   -9.663945
+  -11.487183   -9.771322   -7.5385985 -10.55383    -7.113476   -9.916618
+   -8.390852   -7.913357  -10.318442  -11.419287   -9.761128   -8.376889
+   -9.416711   -6.8858705 -10.773511 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "SW1A 2AA\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'SW1A 2AA\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'SW1A 2AA\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | SW1A 2AA
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 92438, 10759, 10738, 98149, 10738,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-10.81886     -0.35855696 -10.271238   -12.0587     -11.080112
+  -11.383345   -13.123959   -11.906399   -11.606535    -8.474545
+  -10.609409   -10.815198   -12.586809    -9.695071    -9.017168
+  -10.43594     -9.651949   -11.639375    -9.600044   -10.556229
+  -11.834159   -13.205952   -11.904133    -9.652922    -9.814951
+   -6.1389     -12.316665  ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "\u00a336,126.65\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '£36,126.65\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '£36,126.65\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | £36,126.65
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101,   201, 60878,   117, 17813,   119, 10843,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -7.177842   -7.3421454  -7.0456476   7.125163   -6.5673666  -7.0565085
+   -8.974453   -7.1142488  -9.919286   -8.431439   -9.242823   -8.31393
+   -8.633137   -8.79081    -6.430531   -7.6460834 -10.101471   -6.803414
+   -6.920802   -7.202712   -7.0876946  -7.773043   -6.888537   -6.9724145
+    8.217817   -6.3073015 -10.7564945]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "New Balance\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'New Balance\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'New Balance\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | New Balance
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  10287, 100777,    102]]), 'attention_mask': array([[1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.707266  -10.132001   -9.41348   -11.172708  -11.3007145 -11.032003
+   -8.418117  -10.713272  -10.377391  -11.546062   -9.2213    -13.751724
+  -13.761263  -11.688912  -11.024287  -12.445168  -11.781046  -11.289152
+    2.587531  -12.950956  -12.009558   -9.962507  -10.007733   -9.335223
+   -6.865315   -8.167785  -11.744716 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "Date\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'Date\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'Date\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Date
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 29897,   102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -8.830706   -7.1507263  -8.170873   -7.5405135  -6.8087616   3.9536815
+   -8.315688   -7.8564157  -9.114121   -7.265112   -8.959711  -10.644964
+  -10.595034   -6.9573827  -8.045914   -9.696395   -9.335649   -8.65234
+   -8.524794   -8.392602   -7.2001877  -9.294598   -6.761569   -7.7367516
+   -6.8477025  -7.4023805 -10.84684  ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "Type\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'Type\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'Type\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Type
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 21304,   102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.871677   -9.85494   -11.650639  -12.513885  -12.20845   -10.331149
+  -12.63601   -11.0879    -11.469055  -11.392562  -12.995049  -14.690648
+  -15.858389  -11.5873375 -11.127122  -11.769536  -13.636252  -12.442549
+  -10.504583  -12.109259  -10.100989  -13.284599  -13.0966835 -11.694334
+   -9.062375  -10.515942  -14.865097 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "Description\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'Description\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'Description\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Description
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 52976,   102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.649568   -8.478174  -11.750124  -12.433461  -11.502514  -10.390572
+  -13.196913  -11.401383  -12.946814  -11.734089  -12.888212  -14.540325
+  -16.017372  -11.701925  -12.105993  -12.017306  -13.795134  -13.894659
+  -10.740245  -12.189857  -12.095865  -13.419651  -12.677551  -11.6144085
+   -8.798954  -11.7862625 -14.546467 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "Paid in\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'Paid in\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'Paid in\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Paid in
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101, 107353,  10162,  10106,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.915994   -8.003713  -10.922819  -10.433598  -10.538256   -5.227982
+  -10.868036  -11.948177  -11.300233  -10.645304  -12.918558  -13.503185
+  -13.788248  -10.858031   -9.975053  -12.511778   -9.890112  -11.661015
+   -7.5080295 -10.439442   -6.513317   -9.804557   -8.513938  -11.803384
+   -6.214837   -8.880606  -13.752645 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "Paid out\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'Paid out\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'Paid out\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Paid out
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101, 107353,  10162,  10950,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-12.697801   -7.972      -9.140553  -10.54254    -9.964874   -8.145555
+  -12.25165   -11.143513  -11.430399  -10.957258  -11.367561  -13.300838
+  -12.809591  -10.208548   -7.268098  -12.5621805  -4.007762  -11.122334
+   -1.2937016 -10.057392   -6.6693926  -9.146579   -7.321725  -10.583186
+   -8.368623   -6.3697863 -10.011508 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "Balance\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'Balance\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'Balance\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Balance
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101, 100777,    102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.359248  -10.079258  -10.984567  -10.806037  -11.953873  -10.602266
+  -12.46057   -11.2952385 -12.828867  -11.979284  -13.249153  -14.209717
+  -15.473285  -10.929137  -10.774789  -10.869805  -14.18347   -12.360163
+  -11.9534025 -12.468374  -10.937291  -12.972532  -12.97619   -11.022511
+   -7.541813  -10.442135  -14.717243 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "BROUGHT FORWARD\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'BROUGHT FORWARD\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'BROUGHT FORWARD\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | BROUGHT FORWARD
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  49351,  11403,  12022,  11447,  81012, 109544,  42196,
+         84444,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[  0.83566    -0.6738528   1.7999575  -9.913151   -9.33956   -11.047813
+   -9.459889   -9.865936  -12.074945  -10.495052   -7.362672  -11.84066
+  -11.909327  -11.047056  -10.003254   -9.752534  -12.050305  -11.363852
+   -7.3567514  -8.533864   -7.668702  -11.355181  -11.174004   -3.623794
+   -9.335798   -7.3757935 -10.35894  ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "12,121.71\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '12,121.71\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '12,121.71\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 12,121.71
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10186,   117, 17418,   119, 12513,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -8.73443    -8.137924   -9.4697895  -7.446186   -7.757401   -8.404547
+   -8.543238   -9.116663   -9.568169   -9.631435  -10.332285  -10.570646
+  -10.586758   -7.6454544  -8.205238   -8.7845955 -10.6251     -8.495244
+   -8.739134   -8.069053   -9.162596   -9.702687   -9.339575   -9.435024
+    6.5665927  -7.6908903 -10.896142 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "5,165.00\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '5,165.00\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '5,165.00\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 5,165.00
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101,   126,   117, 19233,   119, 11025,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -8.620082   -8.112227   -9.336409   -7.2797537  -8.138106   -8.283023
+   -8.151627   -9.1505375  -9.591512   -9.774325  -10.337768  -10.834968
+  -10.829769   -8.068427   -8.1550255  -8.666919  -10.757597   -8.508155
+   -8.136922   -8.525131   -9.162588   -9.666153   -9.336346   -9.362283
+    6.6967077  -7.905818  -10.832056 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "27 Feb 2020\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '27 Feb 2020\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '27 Feb 2020\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 27 Feb 2020
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10365, 21194, 23607,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -7.7369432  -7.400207   -8.34541    -8.041751    7.9015284  -5.282382
+  -10.006573   -9.26527    -8.874029   -7.2953444  -6.8656216 -10.719606
+  -10.265223   -8.173801   -7.441867   -8.276307   -9.097833   -9.833773
+   -6.260359   -6.819788   -8.82691   -10.307413   -9.418688   -8.706409
+   -6.1028295  -9.223658   -9.652554 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "CREDIT\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'CREDIT\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'CREDIT\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | CREDIT
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 44912, 33809, 37611,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -9.196466   -6.873681   -7.670537  -11.480134  -10.649248   -9.586012
+  -10.942675  -11.9796715 -12.526117  -11.931261   -9.773047  -14.03406
+  -14.370461  -12.957155  -13.914343  -13.153364  -14.24972   -14.104751
+   -6.908272  -11.825834  -10.184365  -12.839741  -12.258016   -8.762863
+   -9.121917   -8.381113  -13.508823 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "606015\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '606015\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '606015\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 606015
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 56682, 77966, 11166,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.023513   -6.676261  -12.141172  -12.525026   -8.0680065 -10.905183
+  -12.722388  -10.123053  -11.188746  -10.279026  -11.626873  -11.912079
+  -14.125177   -9.467241  -11.34026   -11.71687   -12.951717  -11.8452635
+  -11.314183   -3.1431756 -11.123283  -12.466213  -12.08709    -9.852415
+   -7.6373253 -11.535322  -12.752437 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "17,286.71\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '17,286.71\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '17,286.71\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 17,286.71
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10273,   117, 28747,   119, 12513,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -8.723658   -7.833969   -9.486461   -7.5833855  -7.857626   -8.51407
+   -8.646412   -9.188608   -9.7104225  -9.853942  -10.538638  -10.687719
+  -10.839993   -8.626881   -8.320255   -8.795526  -10.6995735  -8.814025
+   -8.705283   -7.8937845  -9.017967   -9.850242   -9.47861    -9.451262
+    6.307434   -8.213788  -11.136295 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "28 Feb 2020\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '28 Feb 2020\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '28 Feb 2020\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 28 Feb 2020
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10348, 21194, 23607,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -7.7108593  -7.546027   -8.215029   -7.925242    7.9867873  -5.3338547
+   -9.924444   -9.160458   -8.838087   -7.2108107  -6.654152  -10.712929
+  -10.15544    -8.061672   -7.3309755  -8.249922   -8.987064   -9.713412
+   -5.8864155  -7.0322657  -8.877628  -10.221186   -9.353567   -8.629679
+   -5.994593   -9.072895   -9.516539 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "ONLINE TRANSACTION\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'ONLINE TRANSACTION\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'ONLINE TRANSACTION\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | ONLINE TRANSACTION
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 49339, 11369, 83198, 80047, 41275, 27138, 91995, 52980,
+          102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -5.365035   -6.626595   -5.5056095  -7.613035   -7.405354   -4.68427
+   -2.875999   -7.120977   -9.576379   -7.9840117  -7.7310123  -9.645138
+   -9.37657   -10.657973   -7.942094   -9.639773   -7.9472704  -9.385591
+    4.0131416  -6.429548   -3.187458    6.133289    4.4193625  -8.563946
+   -5.224805   -8.25891    -5.326037 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "236.71\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '236.71\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '236.71\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 236.71
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 26318,   119, 12513,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -9.436674   -8.314973  -10.497154   -8.254285   -7.929023   -8.819156
+   -9.87291    -9.28841   -10.165283   -9.815831  -11.0036545 -10.847948
+  -11.468835   -8.216056   -9.02865    -9.106258  -11.443071   -9.385177
+  -10.464855   -7.80128    -9.672722  -10.428909   -9.970953   -9.704305
+    4.6084642  -8.911482  -11.81897  ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "JOHN MANZONI , CASHIN , VIA \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'JOHN MANZONI , CASHIN , VIA \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'JOHN MANZONI , CASHIN , VIA \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | JOHN MANZONI , CASHIN , VIA 
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,    147,  55859,  11537,  73020,  13966,  30118,  11281,
+           117,  92923, 108880,  11537,    117,  12262,  10738,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[  6.467028    2.7624512   1.6595683  -8.882362   -7.8294525  -9.247265
+   -7.1777124  -8.221255  -10.351357   -8.0931225  -6.12144    -9.142019
+   -9.158645  -10.197764   -9.11017    -9.242606  -10.551396   -9.944346
+   -5.1423936  -7.4866714  -7.6563835  -9.136902   -7.974823   -4.908643
+   -8.021535   -7.2954254  -8.694351 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "17,050.00\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '17,050.00\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '17,050.00\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 17,050.00
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10273,   117, 60801,   119, 11025,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -8.701111   -8.078542   -9.436206   -7.8243623  -7.7348127  -8.459694
+   -8.068625   -9.162339   -9.689594   -9.907672   -9.907803  -11.035457
+  -11.079246   -8.08999    -7.8866677  -8.428105  -10.633588   -8.396492
+   -7.813139   -8.6083975  -9.617234   -9.705864   -9.423546   -9.263565
+    6.4556065  -8.276859  -10.800902 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "MOBILE - LVP , FP 28/02/20 10 , \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'MOBILE - LVP , FP 28/02/20 10 , \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'MOBILE - LVP , FP 28/02/20 10 , \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | MOBILE - LVP , FP 28/02/20 10 , 
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101, 102059,  11274,  38850,  11259,    118,    149,  11779,
+         11127,    117,    143,  11127,  10348,    120,  10983,    120,
+         10197,  10150,    117,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ 0.79397106 -5.7407017  -5.60808    -8.272982    8.804505   -2.769023
+  -4.844189   -9.640258   -6.1166534  -4.054118   -2.2343235  -8.656609
+  -6.8764334  -4.373334   -7.8581467  -8.40312    -8.78392    -8.488934
+  -2.2163496  -3.385054   -6.0708838  -8.726706   -6.2506704  -7.629289
+  -5.2597604  -4.8355193  -6.7737813 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "58172609443997000N\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '58172609443997000N\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '58172609443997000N\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 58172609443997000N
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 49517, 11305, 90533, 10929, 11373, 98041, 10884, 88657,
+        48205, 21069, 11537,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-10.773365   -3.0171616 -11.47652   -12.496859  -10.5960655 -11.917507
+  -12.91876   -10.157117  -10.253653   -9.086088  -11.537273  -10.773666
+  -13.277943   -9.103433   -7.871734   -9.829165  -10.981501   -9.749934
+  -11.779646   -2.7728298 -10.836775  -12.448593  -12.004456   -9.348384
+   -8.474517   -9.575497  -12.465429 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "17,071.56\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '17,071.56\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '17,071.56\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 17,071.56
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  10273,    117, 105002,    119,  11628,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -8.793018   -7.824504   -9.675249   -7.7643256  -7.690043   -8.496026
+   -8.54863    -9.080739   -9.723565   -9.713413  -10.229683  -10.57377
+  -10.791875   -8.0847435  -8.375528   -8.708237  -10.734827   -8.780218
+   -8.7844     -7.7866893  -9.179266   -9.797798   -9.449832   -9.400121
+    6.2587     -8.239497  -11.043895 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "2 Mar 2020\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '2 Mar 2020\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '2 Mar 2020\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 2 Mar 2020
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101,   123, 15734, 23607,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -8.373152   -7.6763973  -8.858223   -8.035285    7.7405086  -4.149153
+   -9.801685  -10.09873    -9.076708   -7.16651    -6.352412  -10.737463
+  -10.298741   -7.4394674  -6.2012663  -7.6608233  -8.714998   -8.815294
+   -6.3982882  -7.464897   -9.435258  -10.515613   -9.270488   -9.216428
+   -6.149082   -9.083532   -9.61676  ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "606015 02MAR 1223\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '606015 02MAR 1223\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '606015 02MAR 1223\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 606015 02MAR 1223
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 56682, 77966, 11166, 10983, 30696, 11273, 96107,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -9.227245   -0.6927046 -10.933321  -11.593461   -3.7847047 -10.111653
+  -13.009815  -10.379437  -10.20612    -8.874071   -9.5365505 -10.046714
+  -11.885944   -8.192015   -9.7608185 -10.600866  -10.372987  -11.312646
+  -11.5500345  -2.6917753 -10.63621   -12.572383  -11.185617   -9.161388
+   -7.800456   -9.275924  -11.673636 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "21.56\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '21.56\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '21.56\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 21.56
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10296,   119, 11628,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -8.972818   -8.664924   -9.932985   -8.020759   -7.719485   -8.307449
+   -9.11335    -9.050707   -9.925473   -9.57593   -10.27809   -10.718963
+  -10.94074    -6.9961634  -9.010038   -9.059841  -11.240229   -9.058058
+   -9.591917   -8.573379   -9.698627  -10.047322   -9.550935   -9.527064
+    5.335273   -8.181408  -11.308572 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": " \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': ' \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': ' \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         |  
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": " \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': ' \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': ' \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         |  
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": " \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': ' \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': ' \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         |  
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": " \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': ' \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': ' \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         |  
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": ".......\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '.......\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '.......\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | .......
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 119, 119, 119, 119, 119, 119, 119, 102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-12.372634  -11.662746  -11.9642315 -11.707822  -10.771848  -10.178952
+  -11.115203  -11.073389  -12.500252  -13.026354  -12.126478  -15.762694
+  -16.650612  -11.223721  -10.645886  -12.153085  -14.569529  -10.762474
+   -7.8991537 -10.023705  -10.693068  -12.986332  -13.271517  -11.598594
+   -6.969183  -12.716748  -14.256414 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "6 Mar 2020\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '6 Mar 2020\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '6 Mar 2020\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 6 Mar 2020
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101,   127, 15734, 23607,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -8.382647   -7.7299604  -8.958457   -8.298032    7.810397   -4.140208
+   -9.73975   -10.288082   -8.9975     -7.41928    -6.0333915 -10.924855
+  -10.401239   -7.323681   -6.4336224  -7.811185   -8.840805   -8.875273
+   -6.4263625  -7.3800735  -9.424366  -10.60306    -9.280176   -9.37493
+   -6.124559   -9.173253   -9.617809 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "ONLINE TRANSACTION\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'ONLINE TRANSACTION\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'ONLINE TRANSACTION\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | ONLINE TRANSACTION
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 49339, 11369, 83198, 80047, 41275, 27138, 91995, 52980,
+          102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -5.365035   -6.626595   -5.5056095  -7.613035   -7.405354   -4.68427
+   -2.875999   -7.120977   -9.576379   -7.9840117  -7.7310123  -9.645138
+   -9.37657   -10.657973   -7.942094   -9.639773   -7.9472704  -9.385591
+    4.0131416  -6.429548   -3.187458    6.133289    4.4193625  -8.563946
+   -5.224805   -8.25891    -5.326037 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "21.56\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '21.56\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '21.56\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 21.56
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10296,   119, 11628,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -8.972818   -8.664924   -9.932985   -8.020759   -7.719485   -8.307449
+   -9.11335    -9.050707   -9.925473   -9.57593   -10.27809   -10.718963
+  -10.94074    -6.9961634  -9.010038   -9.059841  -11.240229   -9.058058
+   -9.591917   -8.573379   -9.698627  -10.047322   -9.550935   -9.527064
+    5.335273   -8.181408  -11.308572 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "JOHN MANZONI , CASHIN , VIA \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'JOHN MANZONI , CASHIN , VIA \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'JOHN MANZONI , CASHIN , VIA \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | JOHN MANZONI , CASHIN , VIA 
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,    147,  55859,  11537,  73020,  13966,  30118,  11281,
+           117,  92923, 108880,  11537,    117,  12262,  10738,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[  6.467028    2.7624512   1.6595683  -8.882362   -7.8294525  -9.247265
+   -7.1777124  -8.221255  -10.351357   -8.0931225  -6.12144    -9.142019
+   -9.158645  -10.197764   -9.11017    -9.242606  -10.551396   -9.944346
+   -5.1423936  -7.4866714  -7.6563835  -9.136902   -7.974823   -4.908643
+   -8.021535   -7.2954254  -8.694351 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "17,050.00\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '17,050.00\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '17,050.00\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 17,050.00
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10273,   117, 60801,   119, 11025,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -8.701111   -8.078542   -9.436206   -7.8243623  -7.7348127  -8.459694
+   -8.068625   -9.162339   -9.689594   -9.907672   -9.907803  -11.035457
+  -11.079246   -8.08999    -7.8866677  -8.428105  -10.633588   -8.396492
+   -7.813139   -8.6083975  -9.617234   -9.705864   -9.423546   -9.263565
+    6.4556065  -8.276859  -10.800902 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "MOBILE - LVP , FP 02/03/20 10 , \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'MOBILE - LVP , FP 02/03/20 10 , \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'MOBILE - LVP , FP 02/03/20 10 , \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | MOBILE - LVP , FP 02/03/20 10 , 
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101, 102059,  11274,  38850,  11259,    118,    149,  11779,
+         11127,    117,    143,  11127,  10983,    120,  10907,    120,
+         10197,  10150,    117,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-0.03736113 -5.648821   -5.720154   -8.369789    8.955215   -3.239481
+  -5.7484236  -9.444518   -6.5021615  -4.350454   -2.2168245  -8.739357
+  -7.1812887  -4.9301662  -8.02098    -8.366066   -8.86404    -8.846946
+  -2.673899   -3.864797   -6.6518984  -9.118118   -6.7887745  -7.6123686
+  -5.657589   -5.4108963  -7.228053  ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "35122536650550000N\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '35122536650550000N\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '35122536650550000N\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 35122536650550000N
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 34487, 71793, 67574, 87372, 28847, 99555, 77802, 10929,
+        11537,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-12.25095    -5.7922893 -12.236558  -12.522821  -11.515583  -11.288511
+  -13.634931  -12.195835  -13.354374  -11.001374  -12.67713   -13.658638
+  -15.3400545 -10.85967    -9.185167  -11.053675  -12.679289  -10.931631
+  -11.143068  -11.437524  -13.159119  -13.584079  -12.929689  -11.465393
+   -8.735126  -10.38023   -13.849104 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "19,076.65\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '19,076.65\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '19,076.65\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 19,076.65
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10270,   117, 10878, 11211,   119, 10843,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -8.879276   -8.0625305  -9.461969   -7.3358936  -8.12191    -8.47413
+   -8.35396    -9.171645   -9.864498   -9.892946  -10.477003  -10.785092
+  -10.950888   -8.3509865  -8.041177   -8.774732  -10.637921   -8.458004
+   -8.289326   -8.336342   -9.3074665  -9.833968   -9.531781   -9.506779
+    6.514577   -8.115223  -11.000536 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "606015\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '606015\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '606015\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 606015
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 56682, 77966, 11166,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.023513   -6.676261  -12.141172  -12.525026   -8.0680065 -10.905183
+  -12.722388  -10.123053  -11.188746  -10.279026  -11.626873  -11.912079
+  -14.125177   -9.467241  -11.34026   -11.71687   -12.951717  -11.8452635
+  -11.314183   -3.1431756 -11.123283  -12.466213  -12.08709    -9.852415
+   -7.6373253 -11.535322  -12.752437 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "8 Mar 2020\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '8 Mar 2020\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '8 Mar 2020\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 8 Mar 2020
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101,   129, 15734, 23607,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -8.33791    -7.9915333  -8.836481   -8.0539465   7.8917475  -3.993906
+   -9.512801  -10.341555   -9.038848   -7.522312   -5.9858785 -10.970314
+  -10.360706   -7.3480406  -6.423797   -7.9012804  -8.928225   -8.766581
+   -6.3724394  -7.3390737  -9.343752  -10.413615   -9.126448   -9.333412
+   -5.8203344  -9.135116   -9.61086  ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "36,126.65\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '36,126.65\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '36,126.65\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 36,126.65
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 11055,   117, 17813,   119, 10843,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -8.632125   -8.076503   -9.495756   -7.7470584  -7.661824   -8.2344055
+   -8.375995   -9.093954   -9.512564   -9.755575  -10.199822  -10.54615
+  -10.526331   -7.8376284  -8.650397   -9.034876  -10.820396   -8.746801
+   -8.374395   -7.654076   -9.0860615  -9.596208   -9.166869   -9.241072
+    6.475208   -7.712037  -10.866151 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "CREDIT\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'CREDIT\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'CREDIT\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | CREDIT
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 44912, 33809, 37611,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -9.196466   -6.873681   -7.670537  -11.480134  -10.649248   -9.586012
+  -10.942675  -11.9796715 -12.526117  -11.931261   -9.773047  -14.03406
+  -14.370461  -12.957155  -13.914343  -13.153364  -14.24972   -14.104751
+   -6.908272  -11.825834  -10.184365  -12.839741  -12.258016   -8.762863
+   -9.121917   -8.381113  -13.508823 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "                                         \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '                                         \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '                                         \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         |                                          
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "  \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '  \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '  \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         |   
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": " \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': ' \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': ' \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         |  
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": " \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': ' \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': ' \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         |  
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": " \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': ' \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': ' \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         |  
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": " \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': ' \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': ' \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         |  
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": " \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': ' \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': ' \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         |  
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": " \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': ' \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': ' \n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         |  
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 102]]), 'attention_mask': array([[1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.097604  -6.40417  -11.303377 -12.400188 -11.538259 -11.192167
+  -13.44013  -11.823156 -13.436713 -11.550772 -12.5067   -14.160433
+  -15.861889 -12.415065 -11.689555 -11.815564 -13.749994 -13.58623
+  -11.585941 -11.560406 -12.193237 -13.595797 -12.987063 -11.211504
+   -9.371306 -11.663675 -14.529064]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "Deposit Guarantee Scheme Information\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'Deposit Guarantee Scheme Information\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'Deposit Guarantee Scheme Information\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Deposit Guarantee Scheme Information
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  10190, 106185,    144,  66567,  11227,  10112,  55260,
+        101318,  12145,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.529112   -9.795759  -10.617098  -11.740164  -13.21275   -11.98076
+  -11.283923  -11.168928  -13.283681  -12.871495  -11.915422  -15.6984005
+  -16.356068  -12.065269  -10.213248  -12.034288  -13.404022  -11.143506
+   -2.437573  -14.078782  -12.428127  -11.6954775 -11.511446  -10.789383
+   -8.090574  -10.562324  -13.534118 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "Your deposit is eligible for protection under the Financial Services Compensation Scheme (FSCS). A link to the FSCS Information Sheet and list of exclusions can be found\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'Your deposit is eligible for protection under the Financial Services Compensation Scheme (FSCS). A link to the FSCS Information Sheet and list of exclusions can be found\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'Your deposit is eligible for protection under the Financial Services Compensation Scheme (FSCS). A link to the FSCS Information Sheet and list of exclusions can be found\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Your deposit is eligible for protection under the Financial Services Compensation Scheme (FSCS). A link to the FSCS Information Sheet and list of exclusions can be found
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  13554,  10104, 106185,  10124,  58970,  10142,  20344,
+         10571,  10105,  30738,  20228,  16680,  74599,  10822,  55260,
+        101318,    113,  83276,  61857,    114,    119,    138,  26192,
+         10114,  10105,  83276,  61857,  12145,  11149,  10308,  10111,
+         13416,  10108,  11419,  92915,  10107,  10944,  10347,  11823,
+           102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-10.391881   -9.987897   -6.070017   -9.714904   -9.517078  -10.553377
+  -10.2196245  -8.09998    -9.701229  -10.434131   -8.638681  -13.431439
+  -13.259887  -11.639406   -9.759274  -12.182442   -9.836851  -10.337261
+    8.256317  -11.477643  -11.1966715  -6.9249296  -6.35273    -9.342694
+   -7.3227453  -9.7549     -9.287349 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "on your online statement. For further information about the compensation provided by the FSCS, refer to the FSCS website at www.FSCS.org.uk\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'on your online statement. For further information about the compensation provided by the FSCS, refer to the FSCS website at www.FSCS.org.uk\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'on your online statement. For further information about the compensation provided by the FSCS, refer to the FSCS website at www.FSCS.org.uk\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | on your online statement. For further information about the compensation provided by the FSCS, refer to the FSCS website at www.FSCS.org.uk
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10135, 20442, 13893, 33311,   119, 11399, 14586, 12929,
+        10978, 10105, 71576, 16491, 10155, 10105, 83276, 61857,   117,
+        42803, 10114, 10105, 83276, 61857, 13575, 10160, 10494,   119,
+        83276, 61857,   119, 10733,   119, 16803,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-10.427868  -10.399409   -8.108496   -9.25196    -9.412183  -10.863497
+  -10.534691   -7.606855   -9.471595  -10.379471   -9.241012  -13.543909
+  -13.7252245 -11.38878    -9.413786  -11.716392  -10.1937275 -10.290312
+    7.577686  -11.155583  -10.75932    -6.8237963  -6.2657776  -9.428818
+   -7.643229  -10.463705   -9.939991 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "\u00a9 National Westminster Bank Plc. Downloaded from NatWest Bank\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '© National Westminster Bank Plc. Downloaded from NatWest Bank\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '© National Westminster Bank Plc. Downloaded from NatWest Bank\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | © National Westminster Bank Plc. Downloaded from NatWest Bank
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101,   206, 10655, 30795, 13533, 48932, 10350,   119, 65822,
+        10336, 10188, 25622, 13034, 13051, 13533,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -1.151185   -4.5834746   7.124296   -5.7548666  -7.427404   -9.899285
+   -9.603609   -2.3521318  -9.725118   -7.9769278  -7.8336287  -8.921242
+   -7.994586  -10.221254   -8.18412   -10.383478   -7.947383   -8.904213
+    1.8252435  -8.76643    -8.902217   -6.9936805  -7.197568   -5.411277
+   -6.1161976  -6.329777   -8.165899 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "National Westminster Bank Plc, registered in England and Wales No. 929027.  Registered office: 250\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'National Westminster Bank Plc, registered in England and Wales No. 929027.  Registered office: 250\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'National Westminster Bank Plc, registered in England and Wales No. 929027.  Registered office: 250\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | National Westminster Bank Plc, registered in England and Wales No. 929027.  Registered office: 250
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10655, 30795, 13533, 48932, 10350,   117, 33712, 10106,
+        11701, 10111, 14137, 10657,   119, 69073, 90426, 11305,   119,
+        13305, 10336, 14301,   131, 12214,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[  5.355323   -1.6336812   5.2740173  -6.177063   -6.8482485  -9.3503685
+   -5.233629   -6.381692   -7.4548206  -7.039731   -7.4376526  -8.278403
+   -6.8376303 -11.259993   -8.763305  -10.605257   -8.369896   -9.415408
+    4.5898776  -5.1622334  -3.663346   -5.9190083  -5.213194   -5.966714
+   -3.9086127  -5.553519   -7.3678923]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "Online Statement Service on 22/06/2020. Search 'statements' on\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': "Online Statement Service on 22/06/2020. Search 'statements' on\n"}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': "Online Statement Service on 22/06/2020. Search 'statements' on\n"}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Online Statement Service on 22/06/2020. Search 'statements' on
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 14056, 11104, 10426, 13489, 10135, 10306,   120, 10719,
+          120, 23607,   119, 27518,   112, 70808,   112, 10135,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[ -9.442329   -9.597307   -7.6114483  -9.55076     1.476039   -6.0370383
+   -8.464587   -5.8772693  -8.420916   -9.644235   -4.0759163 -12.445921
+  -10.882507   -9.37757    -8.731479  -11.559694   -7.7495275  -9.613187
+    7.9320126  -9.118635   -9.919639   -8.139132   -6.9817047  -8.32856
+   -7.1485443  -9.611078   -6.1978283]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "Bishopsgate, London EC2M 4AA.  Authorised by the Prudential Regulation Authority and regulated by\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'Bishopsgate, London EC2M 4AA.  Authorised by the Prudential Regulation Authority and regulated by\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'Bishopsgate, London EC2M 4AA.  Authorised by the Prudential Regulation Authority and regulated by\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Bishopsgate, London EC2M 4AA.  Authorised by the Prudential Regulation Authority and regulated by
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  17576,  84105,  12436,    117,  10829,  27364,  10729,
+         11517,    125,  62281,    119,  57043,  20666,  10155,  10105,
+        106482,  23280,  72416, 107990,  27894,  26553,  10111, 106125,
+         10155,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[  2.5786164    4.4248123   -0.48297828  -8.796636    -7.382901
+   -9.593285    -7.3728285   -6.917786    -8.566325    -7.602187
+   -5.091435    -9.067463    -8.543838   -10.334081    -8.538849
+   -9.97106     -7.464695    -9.923473     4.119083    -9.0366955
+   -9.099125    -8.56035     -6.108386    -6.227824    -7.3314314
+   -7.1797457   -6.2174096 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "www.natwest.com for more information.\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'www.natwest.com for more information.\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'www.natwest.com for more information.\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | www.natwest.com for more information.
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10494,   119, 55592, 49458,   119, 10212, 10142, 10798,
+        12929,   119,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.685357   -6.231037  -12.223759  -11.690184  -11.244253  -10.880581
+  -13.82292   -10.250553  -13.241152  -12.496472  -12.303159  -14.839245
+  -16.296871  -12.607786  -11.305716  -12.519628  -12.862387  -12.632623
+   -8.077172  -12.106255  -12.896666  -13.237764  -12.011524  -11.096217
+   -7.6997824 -12.643418  -14.363629 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "the Financial Conduct Authority and the Prudential Regulation Authority.\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': 'the Financial Conduct Authority and the Prudential Regulation Authority.\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': 'the Financial Conduct Authority and the Prudential Regulation Authority.\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | the Financial Conduct Authority and the Prudential Regulation Authority.
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  10105,  30738,  12845,  54489,  26553,  10111,  10105,
+        106482,  23280,  72416, 107990,  27894,  26553,    119,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.684744  -10.397573   -3.8388305  -9.576917   -9.983859  -10.057091
+  -11.192581   -9.9207    -11.378681  -11.114181   -9.916881  -13.680626
+  -13.9892235 -13.159945  -10.502615  -12.896572  -11.364849  -11.162428
+    2.7739549 -12.582883  -11.638308   -9.377083   -9.269755  -10.4308405
+   -7.7906647 -10.706104  -12.071065 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:06 | TRACE    | labeler.onnx         | _test {"text": "1\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:06 | TRACE    | labeler.onnx         | [{'text': '1\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:06 | TRACE    | labeler.onnx         | TEST [{'text': '1\n'}] (text_classifier_quant.py:54)
+12-03 12:00:06 | TRACE    | labeler.onnx         | 1
+ (text_classifier_quant.py:59)
+12-03 12:00:06 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 122, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result_list [[-11.729569   -8.48308   -11.568947  -11.8783865 -11.709868  -11.609123
+  -13.041386  -12.0689745 -13.451508  -12.143198  -12.93215   -14.666904
+  -16.092712  -12.996874  -11.052298  -11.773636  -13.524456  -12.903023
+  -10.536066  -12.188179  -12.104288  -13.283503  -12.969475  -12.0079155
+   -6.9246016 -12.143674  -14.620618 ]] (text_classifier_quant.py:90)
+12-03 12:00:06 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 27) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "Account number: 74868535\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': 'Account number: 74868535\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': 'Account number: 74868535\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Account number: 74868535
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 94619, 11487,   131, 67528, 11211, 69975, 76897,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[ 4.0864887 -3.5786214]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "Statement\n [SEP] Sort code: 51-50-03\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': 'Statement\n [SEP] Sort code: 51-50-03\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': 'Statement\n [SEP] Sort code: 51-50-03\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Statement
+ [SEP] Sort code: 51-50-03
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 11104, 10426,   102, 12882, 10976, 16964,   131, 11524,
+          118, 10462,   118, 10907,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[ 4.0464525 -3.5379844]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "BIC: NWBKGB2L\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': 'BIC: NWBKGB2L\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': 'BIC: NWBKGB2L\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | BIC: NWBKGB2L
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101,   139, 30889,   131,   151, 13034, 11274, 11733, 32469,
+        10729, 11369,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[ 4.10458   -3.5399718]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "SELECT ACCOUNT\n [SEP] IBAN: GB49 NWBK 5150 0374 8685 35\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': 'SELECT ACCOUNT\n [SEP] IBAN: GB49 NWBK 5150 0374 8685 35\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': 'SELECT ACCOUNT\n [SEP] IBAN: GB49 NWBK 5150 0374 8685 35\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | SELECT ACCOUNT
+ [SEP] IBAN: GB49 NWBK 5150 0374 8685 35
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  23056,  51036,  91995, 106857,  11403,  69849,  11090,
+           102, 110503,  41275,    131,  32258,  99808,    151,  13034,
+         11274,  11733,  41211,  10929, 110384,  11011,  78906,  11166,
+         10803,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[ 4.1014304 -3.5612602]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "M\n [SEP] R\n [SEP] H\n [SEP] J\n [SEP] O\n [SEP] N\n [SEP] N\n [SEP] M\n [SEP] A\n [SEP] N\n [SEP] O\n [SEP] I\n [SEP] Z\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': 'M\n [SEP] R\n [SEP] H\n [SEP] J\n [SEP] O\n [SEP] N\n [SEP] N\n [SEP] M\n [SEP] A\n [SEP] N\n [SEP] O\n [SEP] I\n [SEP] Z\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': 'M\n [SEP] R\n [SEP] H\n [SEP] J\n [SEP] O\n [SEP] N\n [SEP] N\n [SEP] M\n [SEP] A\n [SEP] N\n [SEP] O\n [SEP] I\n [SEP] Z\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | M
+ [SEP] R
+ [SEP] H
+ [SEP] J
+ [SEP] O
+ [SEP] N
+ [SEP] N
+ [SEP] M
+ [SEP] A
+ [SEP] N
+ [SEP] O
+ [SEP] I
+ [SEP] Z
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 150, 102, 155, 102, 145, 102, 147, 102, 152, 102, 151, 102,
+        151, 102, 150, 102, 138, 102, 151, 102, 152, 102, 146, 102, 163,
+        102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[ 3.4926717 -3.0511928]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "S\n [SEP] E\n [SEP] L\n [SEP] E\n [SEP] C\n [SEP] T\n [SEP] A\n [SEP] C\n [SEP] C\n [SEP] U\n [SEP] O\n [SEP] N\n [SEP] T\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': 'S\n [SEP] E\n [SEP] L\n [SEP] E\n [SEP] C\n [SEP] T\n [SEP] A\n [SEP] C\n [SEP] C\n [SEP] U\n [SEP] O\n [SEP] N\n [SEP] T\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': 'S\n [SEP] E\n [SEP] L\n [SEP] E\n [SEP] C\n [SEP] T\n [SEP] A\n [SEP] C\n [SEP] C\n [SEP] U\n [SEP] O\n [SEP] N\n [SEP] T\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | S
+ [SEP] E
+ [SEP] L
+ [SEP] E
+ [SEP] C
+ [SEP] T
+ [SEP] A
+ [SEP] C
+ [SEP] C
+ [SEP] U
+ [SEP] O
+ [SEP] N
+ [SEP] T
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 156, 102, 142, 102, 149, 102, 142, 102, 140, 102, 157, 102,
+        138, 102, 140, 102, 140, 102, 158, 102, 152, 102, 151, 102, 157,
+        102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[ 3.500943  -3.0927298]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "Branch Details\n [SEP] Your current details\n [SEP] Period\n [SEP] 21 Sep 2019 to 20 Mar 2020\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': 'Branch Details\n [SEP] Your current details\n [SEP] Period\n [SEP] 21 Sep 2019 to 20 Mar 2020\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': 'Branch Details\n [SEP] Your current details\n [SEP] Period\n [SEP] 21 Sep 2019 to 20 Mar 2020\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Branch Details
+ [SEP] Your current details
+ [SEP] Period
+ [SEP] 21 Sep 2019 to 20 Mar 2020
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 27544, 67873,   102, 13554, 14978, 29500,   102, 65476,
+          102, 10296, 67281, 19493, 10114, 10197, 15734, 23607,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[ 3.3969245 -3.0834317]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "LONDON BRIDGE\n [SEP] MR JOHN MANZONI     \n [SEP] Previous Balance\n [SEP] \u00a312,121.71\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': 'LONDON BRIDGE\n [SEP] MR JOHN MANZONI     \n [SEP] Previous Balance\n [SEP] £12,121.71\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': 'LONDON BRIDGE\n [SEP] MR JOHN MANZONI     \n [SEP] Previous Balance\n [SEP] £12,121.71\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | LONDON BRIDGE
+ [SEP] MR JOHN MANZONI     
+ [SEP] Previous Balance
+ [SEP] £12,121.71
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,    149,  30118, 104847,  11537,  49351,  28895,  58719,
+           102,  52157,    147,  55859,  11537,  73020,  13966,  30118,
+         11281,    102,  35248,  18574,  10251, 100777,    102, 110642,
+         10729,    117,  17418,    119,  12513,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[ 3.8368888 -3.3873558]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "PO BOX 35\n [SEP] 10 DOWNING STREET \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': 'PO BOX 35\n [SEP] 10 DOWNING STREET \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': 'PO BOX 35\n [SEP] 10 DOWNING STREET \n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | PO BOX 35
+ [SEP] 10 DOWNING STREET 
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,    153,  11403,    139,  72185,  10803,    102,  10150,
+         99843, 105844,  50183,  53317,  66014,  52338,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[ 4.0186543 -3.4946787]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "10 SOUTHWARK STREET\n [SEP] WESTMINSTER\n [SEP] Paid out\n [SEP] \u00a3258.27\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': '10 SOUTHWARK STREET\n [SEP] WESTMINSTER\n [SEP] Paid out\n [SEP] £258.27\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': '10 SOUTHWARK STREET\n [SEP] WESTMINSTER\n [SEP] Paid out\n [SEP] £258.27\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | 10 SOUTHWARK STREET
+ [SEP] WESTMINSTER
+ [SEP] Paid out
+ [SEP] £258.27
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  10150,  71020,  65729,  12396,  42196,  11273,  11733,
+         53317,  66014,  52338,    102,    160,  25054,  55032,  27128,
+         32995,  24093,    102, 107353,  10162,  10950,    102,    201,
+         69168,  11396,    119,  10365,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[ 3.9712052 -3.43583  ]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "LONDON\n [SEP] LONDON\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': 'LONDON\n [SEP] LONDON\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': 'LONDON\n [SEP] LONDON\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | LONDON
+ [SEP] LONDON
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,    149,  30118, 104847,  11537,    102,    149,  30118,
+        104847,  11537,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[ 3.2295814 -2.791137 ]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "SE1  1TJ\n [SEP] SW1A 2AA\n [SEP] Paid in\n [SEP] \u00a324,262.65\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': 'SE1  1TJ\n [SEP] SW1A 2AA\n [SEP] Paid in\n [SEP] £24,262.65\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': 'SE1  1TJ\n [SEP] SW1A 2AA\n [SEP] Paid in\n [SEP] £24,262.65\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | SE1  1TJ
+ [SEP] SW1A 2AA
+ [SEP] Paid in
+ [SEP] £24,262.65
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  23056,  10759,    122,  11090,  15417,    102,  92438,
+         10759,  10738,  98149,  10738,    102, 107353,  10162,  10106,
+           102,    201,  53398,    117,  25610,    119,  10843,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[ 4.031875  -3.5336952]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "New Balance\n [SEP] \u00a336,126.65\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': 'New Balance\n [SEP] £36,126.65\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': 'New Balance\n [SEP] £36,126.65\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | New Balance
+ [SEP] £36,126.65
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  10287, 100777,    102,    201,  60878,    117,  17813,
+           119,  10843,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[ 4.07205   -3.5342765]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "Date\n [SEP] Type\n [SEP] Description\n [SEP] Paid in\n [SEP] Paid out\n [SEP] Balance\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': 'Date\n [SEP] Type\n [SEP] Description\n [SEP] Paid in\n [SEP] Paid out\n [SEP] Balance\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': 'Date\n [SEP] Type\n [SEP] Description\n [SEP] Paid in\n [SEP] Paid out\n [SEP] Balance\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Date
+ [SEP] Type
+ [SEP] Description
+ [SEP] Paid in
+ [SEP] Paid out
+ [SEP] Balance
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  29897,    102,  21304,    102,  52976,    102, 107353,
+         10162,  10106,    102, 107353,  10162,  10950,    102, 100777,
+           102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[-3.8634934  2.8567753]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "BROUGHT FORWARD\n [SEP] 12,121.71\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': 'BROUGHT FORWARD\n [SEP] 12,121.71\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': 'BROUGHT FORWARD\n [SEP] 12,121.71\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | BROUGHT FORWARD
+ [SEP] 12,121.71
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  49351,  11403,  12022,  11447,  81012, 109544,  42196,
+         84444,    102,  10186,    117,  17418,    119,  12513,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[ 4.074108  -3.5603347]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "27 Feb 2020\n [SEP] CREDIT\n [SEP] 606015\n [SEP] 5,165.00\n [SEP] 17,286.71\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': '27 Feb 2020\n [SEP] CREDIT\n [SEP] 606015\n [SEP] 5,165.00\n [SEP] 17,286.71\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': '27 Feb 2020\n [SEP] CREDIT\n [SEP] 606015\n [SEP] 5,165.00\n [SEP] 17,286.71\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | 27 Feb 2020
+ [SEP] CREDIT
+ [SEP] 606015
+ [SEP] 5,165.00
+ [SEP] 17,286.71
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10365, 21194, 23607,   102, 44912, 33809, 37611,   102,
+        56682, 77966, 11166,   102,   126,   117, 19233,   119, 11025,
+          102, 10273,   117, 28747,   119, 12513,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result_list [[ 4.0738854 -3.5695674]] (text_classifier_quant.py:90)
+12-03 12:00:07 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:07 | TRACE    | labeler.onnx         | _test {"text": "28 Feb 2020\n [SEP] ONLINE TRANSACTION\n [SEP] JOHN MANZONI , CASHIN , VIA \n [SEP] 236.71\n [SEP] 17,050.00\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:07 | TRACE    | labeler.onnx         | [{'text': '28 Feb 2020\n [SEP] ONLINE TRANSACTION\n [SEP] JOHN MANZONI , CASHIN , VIA \n [SEP] 236.71\n [SEP] 17,050.00\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:07 | TRACE    | labeler.onnx         | TEST [{'text': '28 Feb 2020\n [SEP] ONLINE TRANSACTION\n [SEP] JOHN MANZONI , CASHIN , VIA \n [SEP] 236.71\n [SEP] 17,050.00\n'}] (text_classifier_quant.py:54)
+12-03 12:00:07 | TRACE    | labeler.onnx         | 28 Feb 2020
+ [SEP] ONLINE TRANSACTION
+ [SEP] JOHN MANZONI , CASHIN , VIA 
+ [SEP] 236.71
+ [SEP] 17,050.00
+ (text_classifier_quant.py:59)
+12-03 12:00:07 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  10348,  21194,  23607,    102,  49339,  11369,  83198,
+         80047,  41275,  27138,  91995,  52980,    102,    147,  55859,
+         11537,  73020,  13966,  30118,  11281,    117,  92923, 108880,
+         11537,    117,  12262,  10738,    102,  26318,    119,  12513,
+           102,  10273,    117,  60801,    119,  11025,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 3.9869404 -3.4986956]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:08 | TRACE    | labeler.onnx         | _test {"text": "MOBILE - LVP , FP 28/02/20 10 , \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:08 | TRACE    | labeler.onnx         | [{'text': 'MOBILE - LVP , FP 28/02/20 10 , \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:08 | TRACE    | labeler.onnx         | TEST [{'text': 'MOBILE - LVP , FP 28/02/20 10 , \n'}] (text_classifier_quant.py:54)
+12-03 12:00:08 | TRACE    | labeler.onnx         | MOBILE - LVP , FP 28/02/20 10 , 
+ (text_classifier_quant.py:59)
+12-03 12:00:08 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101, 102059,  11274,  38850,  11259,    118,    149,  11779,
+         11127,    117,    143,  11127,  10348,    120,  10983,    120,
+         10197,  10150,    117,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 4.120399  -3.5634053]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:08 | TRACE    | labeler.onnx         | _test {"text": "58172609443997000N\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:08 | TRACE    | labeler.onnx         | [{'text': '58172609443997000N\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:08 | TRACE    | labeler.onnx         | TEST [{'text': '58172609443997000N\n'}] (text_classifier_quant.py:54)
+12-03 12:00:08 | TRACE    | labeler.onnx         | 58172609443997000N
+ (text_classifier_quant.py:59)
+12-03 12:00:08 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 49517, 11305, 90533, 10929, 11373, 98041, 10884, 88657,
+        48205, 21069, 11537,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 4.0935626 -3.5700724]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:08 | TRACE    | labeler.onnx         | _test {"text": "2 Mar 2020\n [SEP] 606015 02MAR 1223\n [SEP] 21.56\n [SEP] 17,071.56\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:08 | TRACE    | labeler.onnx         | [{'text': '2 Mar 2020\n [SEP] 606015 02MAR 1223\n [SEP] 21.56\n [SEP] 17,071.56\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:08 | TRACE    | labeler.onnx         | TEST [{'text': '2 Mar 2020\n [SEP] 606015 02MAR 1223\n [SEP] 21.56\n [SEP] 17,071.56\n'}] (text_classifier_quant.py:54)
+12-03 12:00:08 | TRACE    | labeler.onnx         | 2 Mar 2020
+ [SEP] 606015 02MAR 1223
+ [SEP] 21.56
+ [SEP] 17,071.56
+ (text_classifier_quant.py:59)
+12-03 12:00:08 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,    123,  15734,  23607,    102,  56682,  77966,  11166,
+         10983,  30696,  11273,  96107,    102,  10296,    119,  11628,
+           102,  10273,    117, 105002,    119,  11628,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 4.098575  -3.5840487]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:08 | TRACE    | labeler.onnx         | _test {"text": ".......\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:08 | TRACE    | labeler.onnx         | [{'text': '.......\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:08 | TRACE    | labeler.onnx         | TEST [{'text': '.......\n'}] (text_classifier_quant.py:54)
+12-03 12:00:08 | TRACE    | labeler.onnx         | .......
+ (text_classifier_quant.py:59)
+12-03 12:00:08 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 119, 119, 119, 119, 119, 119, 119, 102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 3.8780668 -3.3309608]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:08 | TRACE    | labeler.onnx         | _test {"text": "6 Mar 2020\n [SEP] ONLINE TRANSACTION\n [SEP] JOHN MANZONI , CASHIN , VIA \n [SEP] 21.56\n [SEP] 17,050.00\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:08 | TRACE    | labeler.onnx         | [{'text': '6 Mar 2020\n [SEP] ONLINE TRANSACTION\n [SEP] JOHN MANZONI , CASHIN , VIA \n [SEP] 21.56\n [SEP] 17,050.00\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:08 | TRACE    | labeler.onnx         | TEST [{'text': '6 Mar 2020\n [SEP] ONLINE TRANSACTION\n [SEP] JOHN MANZONI , CASHIN , VIA \n [SEP] 21.56\n [SEP] 17,050.00\n'}] (text_classifier_quant.py:54)
+12-03 12:00:08 | TRACE    | labeler.onnx         | 6 Mar 2020
+ [SEP] ONLINE TRANSACTION
+ [SEP] JOHN MANZONI , CASHIN , VIA 
+ [SEP] 21.56
+ [SEP] 17,050.00
+ (text_classifier_quant.py:59)
+12-03 12:00:08 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,    127,  15734,  23607,    102,  49339,  11369,  83198,
+         80047,  41275,  27138,  91995,  52980,    102,    147,  55859,
+         11537,  73020,  13966,  30118,  11281,    117,  92923, 108880,
+         11537,    117,  12262,  10738,    102,  10296,    119,  11628,
+           102,  10273,    117,  60801,    119,  11025,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 4.001783 -3.524367]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:08 | TRACE    | labeler.onnx         | _test {"text": "MOBILE - LVP , FP 02/03/20 10 , \n"} (text_classifier_wrapper.py:20)
+12-03 12:00:08 | TRACE    | labeler.onnx         | [{'text': 'MOBILE - LVP , FP 02/03/20 10 , \n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:08 | TRACE    | labeler.onnx         | TEST [{'text': 'MOBILE - LVP , FP 02/03/20 10 , \n'}] (text_classifier_quant.py:54)
+12-03 12:00:08 | TRACE    | labeler.onnx         | MOBILE - LVP , FP 02/03/20 10 , 
+ (text_classifier_quant.py:59)
+12-03 12:00:08 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101, 102059,  11274,  38850,  11259,    118,    149,  11779,
+         11127,    117,    143,  11127,  10983,    120,  10907,    120,
+         10197,  10150,    117,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 4.1197777 -3.5593762]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:08 | TRACE    | labeler.onnx         | _test {"text": "35122536650550000N\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:08 | TRACE    | labeler.onnx         | [{'text': '35122536650550000N\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:08 | TRACE    | labeler.onnx         | TEST [{'text': '35122536650550000N\n'}] (text_classifier_quant.py:54)
+12-03 12:00:08 | TRACE    | labeler.onnx         | 35122536650550000N
+ (text_classifier_quant.py:59)
+12-03 12:00:08 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 34487, 71793, 67574, 87372, 28847, 99555, 77802, 10929,
+        11537,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 4.0752287 -3.5487144]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:08 | TRACE    | labeler.onnx         | _test {"text": "8 Mar 2020\n [SEP] CREDIT\n [SEP] 606015\n [SEP] 19,076.65\n [SEP] 36,126.65\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:08 | TRACE    | labeler.onnx         | [{'text': '8 Mar 2020\n [SEP] CREDIT\n [SEP] 606015\n [SEP] 19,076.65\n [SEP] 36,126.65\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:08 | TRACE    | labeler.onnx         | TEST [{'text': '8 Mar 2020\n [SEP] CREDIT\n [SEP] 606015\n [SEP] 19,076.65\n [SEP] 36,126.65\n'}] (text_classifier_quant.py:54)
+12-03 12:00:08 | TRACE    | labeler.onnx         | 8 Mar 2020
+ [SEP] CREDIT
+ [SEP] 606015
+ [SEP] 19,076.65
+ [SEP] 36,126.65
+ (text_classifier_quant.py:59)
+12-03 12:00:08 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101,   129, 15734, 23607,   102, 44912, 33809, 37611,   102,
+        56682, 77966, 11166,   102, 10270,   117, 10878, 11211,   119,
+        10843,   102, 11055,   117, 17813,   119, 10843,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 4.070221  -3.5665798]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:08 | TRACE    | labeler.onnx         | _test {"text": "Deposit Guarantee Scheme Information\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:08 | TRACE    | labeler.onnx         | [{'text': 'Deposit Guarantee Scheme Information\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:08 | TRACE    | labeler.onnx         | TEST [{'text': 'Deposit Guarantee Scheme Information\n'}] (text_classifier_quant.py:54)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Deposit Guarantee Scheme Information
+ (text_classifier_quant.py:59)
+12-03 12:00:08 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  10190, 106185,    144,  66567,  11227,  10112,  55260,
+        101318,  12145,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 3.3890033 -3.1517723]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:08 | TRACE    | labeler.onnx         | _test {"text": "Your deposit is eligible for protection under the Financial Services Compensation Scheme (FSCS). A link to the FSCS Information Sheet and list of exclusions can be found\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:08 | TRACE    | labeler.onnx         | [{'text': 'Your deposit is eligible for protection under the Financial Services Compensation Scheme (FSCS). A link to the FSCS Information Sheet and list of exclusions can be found\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:08 | TRACE    | labeler.onnx         | TEST [{'text': 'Your deposit is eligible for protection under the Financial Services Compensation Scheme (FSCS). A link to the FSCS Information Sheet and list of exclusions can be found\n'}] (text_classifier_quant.py:54)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Your deposit is eligible for protection under the Financial Services Compensation Scheme (FSCS). A link to the FSCS Information Sheet and list of exclusions can be found
+ (text_classifier_quant.py:59)
+12-03 12:00:08 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  13554,  10104, 106185,  10124,  58970,  10142,  20344,
+         10571,  10105,  30738,  20228,  16680,  74599,  10822,  55260,
+        101318,    113,  83276,  61857,    114,    119,    138,  26192,
+         10114,  10105,  83276,  61857,  12145,  11149,  10308,  10111,
+         13416,  10108,  11419,  92915,  10107,  10944,  10347,  11823,
+           102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 3.8824887 -3.3948767]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:08 | TRACE    | labeler.onnx         | _test {"text": "on your online statement. For further information about the compensation provided by the FSCS, refer to the FSCS website at www.FSCS.org.uk\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:08 | TRACE    | labeler.onnx         | [{'text': 'on your online statement. For further information about the compensation provided by the FSCS, refer to the FSCS website at www.FSCS.org.uk\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:08 | TRACE    | labeler.onnx         | TEST [{'text': 'on your online statement. For further information about the compensation provided by the FSCS, refer to the FSCS website at www.FSCS.org.uk\n'}] (text_classifier_quant.py:54)
+12-03 12:00:08 | TRACE    | labeler.onnx         | on your online statement. For further information about the compensation provided by the FSCS, refer to the FSCS website at www.FSCS.org.uk
+ (text_classifier_quant.py:59)
+12-03 12:00:08 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101, 10135, 20442, 13893, 33311,   119, 11399, 14586, 12929,
+        10978, 10105, 71576, 16491, 10155, 10105, 83276, 61857,   117,
+        42803, 10114, 10105, 83276, 61857, 13575, 10160, 10494,   119,
+        83276, 61857,   119, 10733,   119, 16803,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 3.9259944 -3.438316 ]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:08 | TRACE    | labeler.onnx         | _test {"text": "\u00a9 National Westminster Bank Plc. Downloaded from NatWest Bank\n [SEP] National Westminster Bank Plc, registered in England and Wales No. 929027.  Registered office: 250\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:08 | TRACE    | labeler.onnx         | [{'text': '© National Westminster Bank Plc. Downloaded from NatWest Bank\n [SEP] National Westminster Bank Plc, registered in England and Wales No. 929027.  Registered office: 250\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:08 | TRACE    | labeler.onnx         | TEST [{'text': '© National Westminster Bank Plc. Downloaded from NatWest Bank\n [SEP] National Westminster Bank Plc, registered in England and Wales No. 929027.  Registered office: 250\n'}] (text_classifier_quant.py:54)
+12-03 12:00:08 | TRACE    | labeler.onnx         | © National Westminster Bank Plc. Downloaded from NatWest Bank
+ [SEP] National Westminster Bank Plc, registered in England and Wales No. 929027.  Registered office: 250
+ (text_classifier_quant.py:59)
+12-03 12:00:08 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[  101,   206, 10655, 30795, 13533, 48932, 10350,   119, 65822,
+        10336, 10188, 25622, 13034, 13051, 13533,   102, 10655, 30795,
+        13533, 48932, 10350,   117, 33712, 10106, 11701, 10111, 14137,
+        10657,   119, 69073, 90426, 11305,   119, 13305, 10336, 14301,
+          131, 12214,   102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 4.0049353 -3.4685886]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:08 | TRACE    | labeler.onnx         | _test {"text": "Online Statement Service on 22/06/2020. Search 'statements' on\n [SEP] Bishopsgate, London EC2M 4AA.  Authorised by the Prudential Regulation Authority and regulated by\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:08 | TRACE    | labeler.onnx         | [{'text': "Online Statement Service on 22/06/2020. Search 'statements' on\n [SEP] Bishopsgate, London EC2M 4AA.  Authorised by the Prudential Regulation Authority and regulated by\n"}] (text_classifier_wrapper.py:47)
+12-03 12:00:08 | TRACE    | labeler.onnx         | TEST [{'text': "Online Statement Service on 22/06/2020. Search 'statements' on\n [SEP] Bishopsgate, London EC2M 4AA.  Authorised by the Prudential Regulation Authority and regulated by\n"}] (text_classifier_quant.py:54)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Online Statement Service on 22/06/2020. Search 'statements' on
+ [SEP] Bishopsgate, London EC2M 4AA.  Authorised by the Prudential Regulation Authority and regulated by
+ (text_classifier_quant.py:59)
+12-03 12:00:08 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  14056,  11104,  10426,  13489,  10135,  10306,    120,
+         10719,    120,  23607,    119,  27518,    112,  70808,    112,
+         10135,    102,  17576,  84105,  12436,    117,  10829,  27364,
+         10729,  11517,    125,  62281,    119,  57043,  20666,  10155,
+         10105, 106482,  23280,  72416, 107990,  27894,  26553,  10111,
+        106125,  10155,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 3.879652  -3.3706665]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:08 | TRACE    | labeler.onnx         | _test {"text": "www.natwest.com for more information.\n [SEP] the Financial Conduct Authority and the Prudential Regulation Authority.\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:08 | TRACE    | labeler.onnx         | [{'text': 'www.natwest.com for more information.\n [SEP] the Financial Conduct Authority and the Prudential Regulation Authority.\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:08 | TRACE    | labeler.onnx         | TEST [{'text': 'www.natwest.com for more information.\n [SEP] the Financial Conduct Authority and the Prudential Regulation Authority.\n'}] (text_classifier_quant.py:54)
+12-03 12:00:08 | TRACE    | labeler.onnx         | www.natwest.com for more information.
+ [SEP] the Financial Conduct Authority and the Prudential Regulation Authority.
+ (text_classifier_quant.py:59)
+12-03 12:00:08 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[   101,  10494,    119,  55592,  49458,    119,  10212,  10142,
+         10798,  12929,    119,    102,  10105,  30738,  12845,  54489,
+         26553,  10111,  10105, 106482,  23280,  72416, 107990,  27894,
+         26553,    119,    102]]), 'attention_mask': array([[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 3.8303106 -3.4060848]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)
+12-03 12:00:08 | TRACE    | labeler.onnx         | _test {"text": "1\n"} (text_classifier_wrapper.py:20)
+12-03 12:00:08 | TRACE    | labeler.onnx         | [{'text': '1\n'}] (text_classifier_wrapper.py:47)
+12-03 12:00:08 | TRACE    | labeler.onnx         | TEST [{'text': '1\n'}] (text_classifier_quant.py:54)
+12-03 12:00:08 | TRACE    | labeler.onnx         | 1
+ (text_classifier_quant.py:59)
+12-03 12:00:08 | TRACE    | labeler.onnx         | encode_dict {'input_ids': array([[101, 122, 102]]), 'attention_mask': array([[1, 1, 1]])} (text_classifier_quant.py:70)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result_list [[ 3.7767959 -3.3617141]] (text_classifier_quant.py:90)
+12-03 12:00:08 | TRACE    | labeler.onnx         | Result NPSHAPE (1, 2) (text_classifier_quant.py:91)

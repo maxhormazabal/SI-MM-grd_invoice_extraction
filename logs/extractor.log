@@ -1,0 +1,7 @@
+12-03 12:00:04 | INFO     | extractor            | Processing document (1): 9-2 Bank Statement - Innovation Jam.fraud (10) (1).pdf (ocr_utils.py:30)
+12-03 12:00:04 | INFO     | extractor            | Processing document with Camelot (ocr_utils.py:53)
+12-03 12:00:08 | INFO     | extractor            | Elapsed time (phase 2: region tagging): 4 seconds (ocr_utils.py:41)
+12-03 12:00:08 | INFO     | extractor            | Processing document (1): 9-2 Bank Statement - Innovation Jam.fraud (10) (1).pdf (orchestrator.py:223)
+12-03 12:00:08 | INFO     | extractor            | Elapsed time (phase 1: pre-processing): 0 seconds (orchestrator.py:226)
+12-03 12:00:09 | INFO     | extractor            | Elapsed time (phase 3: parsing): 1 seconds (orchestrator.py:242)
+12-03 12:00:09 | INFO     | extractor            | Elapsed time (process document): 1 seconds (orchestrator.py:252)

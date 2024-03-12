@@ -1,0 +1,17 @@
+pdf_conversor:
+  # Default class of the line
+  default_label:
+
+  # Token used to separate elements in a line
+  element_separator: " [SEP] "
+
+  row_tol: 6
+
+ocr:
+  HOSTNAME: 0.0.0.0
+  PORT: 8080
+  URL_analize: analyze/
+  URL_language: detect_language/
+
+camelot:
+  minimum_median_length_elements_to_be_valid: 5
